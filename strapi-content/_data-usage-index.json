@@ -1,0 +1,184 @@
+{
+  "version": "1.0",
+  "description": "Comprehensive fallback data for all Strapi API endpoints",
+  "lastUpdated": "2024",
+  "status": "complete",
+  "endpoints": {
+    "homepage": {
+      "endpoint": "/api/homepage?populate=*",
+      "function": "getPageContent()",
+      "fallbackFile": "page-content.json"
+    },
+    "projects": {
+      "endpoint": "/api/projects?populate=image&pagination[page]={page}&pagination[pageSize]={pageSize}&sort=publishedAt:desc",
+      "function": "getProjects(page, pageSize)",
+      "fallbackFile": "projects.json"
+    },
+    "projectBySlug": {
+      "endpoint": "/api/projects?filters[slug][$eq]={slug}&populate=image",
+      "function": "getProjectBySlug(slug)",
+      "fallbackFile": "projects.json"
+    },
+    "services": {
+      "endpoint": "/api/services?sort=id:asc",
+      "function": "getServices()",
+      "fallbackFile": "services.json"
+    },
+    "serviceBySlug": {
+      "endpoint": "/api/services?filters[slug][$eq]={slug}",
+      "function": "getServiceBySlug(slug)",
+      "fallbackFile": "services.json"
+    },
+    "teamMembers": {
+      "endpoint": "/api/team-members?populate=*&pagination[page]={page}&pagination[pageSize]={pageSize}",
+      "function": "getTeamMembers(page, pageSize)",
+      "fallbackFile": "team-members.json"
+    },
+    "teamMemberBySlug": {
+      "endpoint": "/api/team-members?filters[slug][$eq]={slug}&populate=image",
+      "function": "getTeamMemberBySlug(slug)",
+      "fallbackFile": "team-members.json"
+    },
+    "contactPage": {
+      "endpoint": "/api/contactpage?populate=*",
+      "function": "getContactPage()",
+      "fallbackFile": "contact-page.json"
+    },
+    "global": {
+      "endpoint": "/api/global",
+      "function": "getGlobals()",
+      "fallbackFile": "global.json (optional)"
+    },
+    "markets": {
+      "endpoint": "/api/markets (not implemented)",
+      "fallbackFile": "markets.json"
+    },
+    "keyServices": {
+      "endpoint": "/api/key-services (not implemented)",
+      "fallbackFile": "key-services.json"
+    },
+    "jobs": {
+      "endpoint": "/api/jobs (not implemented)",
+      "fallbackFile": "jobs.json"
+    }
+  },
+  "dataUsageByPage": {
+    "app/page.tsx": [
+      "getProjects(1, 6)",
+      "getServices()",
+      "getPageContent()",
+      "getGlobals()"
+    ],
+    "app/projects/page.tsx": ["getProjects()", "getProjectPage()"],
+    "app/projects/[slug]/page.tsx": ["getProjectBySlug(slug)", "getProjects()"],
+    "app/services/page.tsx": ["getServices()"],
+    "app/services/[slug]/page.tsx": ["getServiceBySlug(slug)", "getServices()"],
+    "app/team/page.tsx": ["getTeamMembers()"],
+    "app/team/[slug]/page.tsx": [
+      "getTeamMembers()",
+      "getTeamMemberBySlug(slug)"
+    ],
+    "app/contact/page.tsx": ["getContactPage()"],
+    "app/about/page.tsx": ["No Strapi data (static content)"]
+  },
+  "commonDataTypes": {
+    "StrapiImage": {
+      "id": "number",
+      "url": "string",
+      "alternativeText": "string",
+      "width": "number",
+      "height": "number"
+    },
+    "Project": {
+      "id": "number",
+      "title": "string",
+      "description": "string",
+      "slug": "string",
+      "location": "string",
+      "region": "string",
+      "image": "StrapiImage",
+      "publishedAt": "string (ISO 8601)",
+      "sector": "string",
+      "services": "string[]",
+      "client": "string",
+      "value": "string",
+      "duration": "string",
+      "status": "string",
+      "featured": "boolean",
+      "gallery": "Array<{url: string, alternativeText: string}>",
+      "outcomes": "string[]",
+      "challenges": "string[]"
+    },
+    "Service": {
+      "id": "number",
+      "title": "string",
+      "description": "string",
+      "slug": "string",
+      "icon": "string",
+      "image": "StrapiImage",
+      "featured": "boolean",
+      "content": "string",
+      "capabilities": "string[]",
+      "sectors": "string[]",
+      "expertise": "string",
+      "caseStudies": "string[]",
+      "relatedServices": "string[]",
+      "publishedAt": "string (ISO 8601)"
+    },
+    "TeamMember": {
+      "id": "number",
+      "name": "string",
+      "slug": "string",
+      "title": "string",
+      "role": "string",
+      "department": "string",
+      "location": "string",
+      "email": "string",
+      "bio": "string",
+      "image": "StrapiImage",
+      "expertise": "string[]",
+      "qualifications": "string[]",
+      "achievements": "string[]",
+      "featured": "boolean",
+      "publishedAt": "string (ISO 8601)"
+    },
+    "PageContent": {
+      "id": "number",
+      "heroTitle": "string",
+      "heroSubtitle": "string",
+      "heroImage": "StrapiImage",
+      "aboutTitle": "string",
+      "aboutDescription": "string"
+    },
+    "ContactPage": {
+      "id": "number",
+      "title": "string",
+      "description": "string",
+      "email": "string",
+      "telephone": "string",
+      "address": "Address[]",
+      "heroTitle": "string",
+      "heroSubtitle": "string",
+      "contactInfo": "object",
+      "offices": "Array<{name, address, city, postcode, country, phone, email, region}>"
+    },
+    "Global": {
+      "id": "number",
+      "company": "string",
+      "slogan": "string",
+      "logo": "StrapiImage"
+    }
+  },
+  "environmentVariables": {
+    "STRAPI_API_URL": "http://localhost:1337",
+    "STRAPI_API_TOKEN": "optional-api-token"
+  },
+  "notes": [
+    "All fallback JSON files are located in strapi-content/ directory",
+    "Images use placeholder.svg when Strapi is unavailable",
+    "Media URLs are resolved using getStrapiMedia() function",
+    "Error handling uses try-catch with silent failures",
+    "Fallback data provides rich content for development and offline use",
+    "Pagination defaults: page=1, pageSize=8 for team members, pageSize=12 for projects"
+  ]
+}

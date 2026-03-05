@@ -1,0 +1,206 @@
+{
+  "data": [
+    {
+      "title": "Buildings",
+      "slug": "buildings",
+      "description": "We work across a broad range of building types including arts and culture, aviation and ports, commercial, retail and offices, education, healthcare, local and central government, residential and hotels, sports and events venues, and transport buildings.",
+      "content": "Our buildings team combines architectural vision with engineering excellence to create exceptional structures that serve communities and stand the test of time. We provide comprehensive services including structural engineering, MEP design, façade engineering, geotechnical engineering, building physics, fire engineering, and vertical transportation.",
+      "featured": true,
+      "icon": "Building2",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Modern building infrastructure"
+      },
+      "sectors": [
+        "Commercial & Offices",
+        "Residential & Hotels",
+        "Healthcare",
+        "Education",
+        "Sports & Events",
+        "Arts & Culture",
+        "Aviation & Ports",
+        "Government",
+        "Transport Buildings"
+      ],
+      "capabilities": [
+        "Structural engineering and design",
+        "MEP systems integration",
+        "Façade and envelope design",
+        "Geotechnical and foundation engineering",
+        "Building physics and acoustics",
+        "Fire safety engineering",
+        "Vertical transportation systems",
+        "Building Information Modeling (BIM)",
+        "Sustainability and green building certification"
+      ],
+      "expertise": "From landmark skyscrapers to essential community facilities, we deliver buildings that combine technical excellence with aesthetic vision. Our multidisciplinary teams work seamlessly with architects, developers, and contractors to realize ambitious projects while ensuring they are safe, sustainable, and economically viable.",
+      "caseStudies": [
+        "Burj Khalifa Structural Engineering",
+        "London Crossrail Stations",
+        "Singapore Sports Hub",
+        "Dubai Opera House"
+      ],
+      "publishedAt": "2024-01-10T00:00:00.000Z"
+    },
+    {
+      "title": "Energy",
+      "slug": "energy",
+      "description": "We understand energy markets and the different paces of transition. We'll use our unique breadth of energy sector technical expertise to co-create solutions with you, and help you deliver them.",
+      "content": "Our energy experts support the full spectrum of power generation, transmission, and distribution from conventional sources to renewables. We help clients navigate the energy transition, decarbonize operations, and build resilient power systems that balance reliability, sustainability, and affordability.",
+      "featured": true,
+      "icon": "Zap",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Renewable energy infrastructure"
+      },
+      "sectors": [
+        "Renewable Energy",
+        "Power Generation",
+        "Transmission & Distribution",
+        "Oil & Gas",
+        "Nuclear Energy",
+        "Energy Storage"
+      ],
+      "capabilities": [
+        "Renewable energy development (solar, wind, hydro)",
+        "Power generation and cogeneration",
+        "Electrical substations and networks",
+        "Energy storage systems and batteries",
+        "Grid modernization and smart grids",
+        "Energy efficiency and decarbonization",
+        "Nuclear power engineering",
+        "Oil and gas infrastructure",
+        "Hydrogen and alternative fuels"
+      ],
+      "expertise": "With decades of experience across conventional and renewable energy, our specialists design infrastructure that supports the global energy transition. We combine electrical engineering, process engineering, and energy economics expertise to deliver integrated solutions from strategic planning through operations.",
+      "caseStudies": [
+        "London Array Offshore Wind Farm",
+        "Saudi Aramco Power Distribution Network",
+        "Hinkley Point C Nuclear Power Station",
+        "Singapore Solar Energy Masterplan"
+      ],
+      "publishedAt": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "title": "Transport",
+      "slug": "transport",
+      "description": "Effective development and delivery of transport infrastructure is essential to realise the benefits from efficient and sustainable transport networks. Our experts help clients create solutions that are intuitive and safe to use.",
+      "content": "We design integrated transport solutions that connect people and places through roads, highways, railways, airports, ports, and public transit systems. Our engineers combine technical excellence with sustainable design principles to create efficient, safe, and future-ready transport networks.",
+      "featured": true,
+      "icon": "Train",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Modern transport infrastructure"
+      },
+      "sectors": [
+        "Roads & Highways",
+        "Rail & Metro",
+        "Aviation",
+        "Ports & Maritime",
+        "Public Transit",
+        "Active Transportation"
+      ],
+      "capabilities": [
+        "Highway and motorway design",
+        "Rail systems and metro networks",
+        "Airport planning and infrastructure",
+        "Ports and maritime facilities",
+        "Traffic modeling and simulation",
+        "Intelligent transport systems (ITS)",
+        "Public transit planning and design",
+        "Cycling and pedestrian infrastructure",
+        "Transport economics and policy",
+        "Station and interchange design"
+      ],
+      "expertise": "With over 50 years delivering iconic transport projects on every continent, we leverage advanced digital tools including traffic microsimulation, BIM, and data analytics to optimize network performance. Our multidisciplinary teams work across all project stages from strategic planning through construction supervision.",
+      "caseStudies": [
+        "Dubai Metro Red Line Extension",
+        "Riyadh Metro Network",
+        "Sydney Light Rail",
+        "London Crossrail",
+        "Hong Kong-Zhuhai-Macau Bridge"
+      ],
+      "publishedAt": "2024-01-20T00:00:00.000Z"
+    },
+    {
+      "title": "Water",
+      "slug": "water",
+      "description": "We have more than a century of water management experience and have played leading roles in many of the world's largest and most transformative water supply, wastewater, irrigation, drainage, and flood protection projects.",
+      "content": "Our water specialists design innovative infrastructure that protects water resources, improves public health, and builds resilience to climate change. From water supply and wastewater treatment to flood management and environmental restoration, we deliver sustainable outcomes for communities worldwide.",
+      "featured": true,
+      "icon": "Droplet",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Water infrastructure and treatment"
+      },
+      "sectors": [
+        "Water Supply",
+        "Wastewater Treatment",
+        "Flood Management",
+        "Irrigation & Drainage",
+        "Coastal Engineering",
+        "Water Resources"
+      ],
+      "capabilities": [
+        "Water supply and distribution networks",
+        "Wastewater treatment and collection",
+        "Hydraulic modeling and analysis",
+        "Flood risk management and resilience",
+        "Desalination and water treatment",
+        "Water resources planning and management",
+        "Coastal and marine engineering",
+        "Dam and reservoir engineering",
+        "Irrigation and drainage systems",
+        "Water quality and environmental monitoring"
+      ],
+      "expertise": "Our water and environment team combines deep technical knowledge with innovative thinking to solve complex water challenges. We use advanced modeling tools and nature-based solutions to design infrastructure that works with natural systems. Climate resilience is embedded in everything we do.",
+      "caseStudies": [
+        "Thames Tideway Tunnel",
+        "Singapore Deep Tunnel Sewerage System",
+        "Rotterdam Climate Adaptation Strategy",
+        "Qatar Strategic Water Reservoirs"
+      ],
+      "publishedAt": "2024-01-25T00:00:00.000Z"
+    },
+    {
+      "title": "Environment & Society",
+      "slug": "environment",
+      "description": "Our global network of climate, environment and social experts support clients and project teams to achieve sustainability throughout the project lifecycle, a strong reputation with investors and stakeholders, and innovative, cost-effective solutions.",
+      "content": "We help organizations address environmental and social challenges through comprehensive assessment, strategic planning, and innovative design. Our specialists integrate sustainability, climate resilience, and social responsibility into infrastructure projects to deliver lasting positive outcomes for communities and ecosystems.",
+      "featured": true,
+      "icon": "Leaf",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Environmental sustainability projects"
+      },
+      "sectors": [
+        "Climate Resilience",
+        "Environmental Assessment",
+        "Social Impact",
+        "Biodiversity & Ecology",
+        "Circular Economy",
+        "Community Engagement"
+      ],
+      "capabilities": [
+        "Environmental impact assessment (EIA)",
+        "Social impact assessment and engagement",
+        "Climate risk and adaptation planning",
+        "Carbon footprint and net zero strategies",
+        "Biodiversity and ecological assessment",
+        "Contaminated land remediation",
+        "Circular economy and resource efficiency",
+        "Nature-based solutions",
+        "Sustainability certification (LEED, BREEAM, etc.)",
+        "Stakeholder consultation and community liaison"
+      ],
+      "expertise": "Our environment and society team includes environmental scientists, ecologists, climate specialists, and social scientists who bring holistic thinking to complex challenges. We use life cycle assessment, climate modeling, and stakeholder engagement to ensure infrastructure projects minimize environmental impact and maximize social benefit.",
+      "caseStudies": [
+        "Thames Tideway Environmental Management",
+        "Singapore Green Plan 2030 Support",
+        "Copenhagen Climate Adaptation Strategy",
+        "Amazon Rainforest Conservation Projects"
+      ],
+      "publishedAt": "2024-02-01T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "data": [
+    {
+      "title": "Senior Transportation Engineer",
+      "slug": "senior-transportation-engineer",
+      "department": "Transportation",
+      "location": "London, United Kingdom",
+      "type": "Full-time",
+      "level": "Senior",
+      "description": "We're seeking an experienced transportation engineer to join our growing London team. You'll work on major rail, highway, and public transit projects across Europe and the Middle East, leading technical design and client engagement.",
+      "responsibilities": [
+        "Lead transportation engineering designs for major infrastructure projects",
+        "Conduct traffic modeling and transport planning studies",
+        "Prepare technical reports and design documentation",
+        "Mentor junior engineers and review technical deliverables",
+        "Engage with clients and present design solutions",
+        "Collaborate with multidisciplinary teams"
+      ],
+      "requirements": [
+        "Bachelor's degree in Civil Engineering or related field",
+        "8+ years of transportation engineering experience",
+        "Chartered Engineer (CEng) or working towards chartership",
+        "Proficiency in transport modeling software (VISSIM, SIDRA, etc.)",
+        "Strong knowledge of UK and EU transport standards",
+        "Excellent communication and project management skills"
+      ],
+      "benefits": [
+        "Competitive salary and performance bonus",
+        "Professional development and training",
+        "Flexible hybrid working",
+        "25 days annual leave plus bank holidays",
+        "Pension scheme",
+        "Health and wellbeing programs"
+      ],
+      "publishedAt": "2024-01-10T00:00:00.000Z"
+    },
+    {
+      "title": "Graduate Civil Engineer",
+      "slug": "graduate-civil-engineer",
+      "department": "Buildings & Infrastructure",
+      "location": "Multiple Locations",
+      "type": "Full-time",
+      "level": "Graduate",
+      "description": "Join our industry-leading graduate program and kickstart your engineering career. You'll gain exposure to diverse projects, receive structured training, and work alongside experienced professionals on challenging infrastructure projects.",
+      "responsibilities": [
+        "Support design and analysis of civil engineering projects",
+        "Assist in preparation of technical drawings and calculations",
+        "Conduct site inspections and surveys",
+        "Participate in project meetings and client presentations",
+        "Develop skills across multiple disciplines",
+        "Work towards professional chartership"
+      ],
+      "requirements": [
+        "Bachelor's or Master's degree in Civil Engineering",
+        "Graduating in 2024 or graduated within last 2 years",
+        "Strong academic record",
+        "Enthusiasm for infrastructure engineering",
+        "Good communication and teamwork skills",
+        "Right to work in country of application"
+      ],
+      "benefits": [
+        "Structured 2-year graduate program",
+        "Comprehensive training and mentorship",
+        "Chartered engineer support and study leave",
+        "Competitive salary",
+        "Rotation opportunities across teams and locations",
+        "Early responsibility on real projects"
+      ],
+      "publishedAt": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "title": "Principal Structural Engineer",
+      "slug": "principal-structural-engineer",
+      "department": "Buildings & Infrastructure",
+      "location": "New York, USA",
+      "type": "Full-time",
+      "level": "Principal",
+      "description": "Lead complex structural engineering projects for high-rise buildings, stadiums, and major infrastructure. This senior role involves technical leadership, business development, and mentoring the next generation of structural engineers.",
+      "responsibilities": [
+        "Lead structural design for landmark buildings and structures",
+        "Provide technical oversight and quality assurance",
+        "Develop innovative structural solutions for complex challenges",
+        "Build and maintain client relationships",
+        "Contribute to business development and proposals",
+        "Mentor and develop junior and mid-level engineers",
+        "Represent the company at industry events"
+      ],
+      "requirements": [
+        "Master's degree in Structural Engineering",
+        "15+ years of structural engineering experience",
+        "Licensed Professional Engineer (PE) and Structural Engineer (SE)",
+        "Proven track record on major building projects",
+        "Expert knowledge of structural analysis software",
+        "Strong leadership and business development skills",
+        "Excellent client-facing and presentation abilities"
+      ],
+      "benefits": [
+        "Highly competitive compensation package",
+        "Performance-based bonuses and profit sharing",
+        "Leadership development programs",
+        "Flexible work arrangements",
+        "Comprehensive health insurance",
+        "Retirement plan with company match",
+        "Professional membership fees covered"
+      ],
+      "publishedAt": "2024-01-20T00:00:00.000Z"
+    },
+    {
+      "title": "Water Resources Engineer",
+      "slug": "water-resources-engineer",
+      "department": "Water & Environment",
+      "location": "Singapore",
+      "type": "Full-time",
+      "level": "Mid-level",
+      "description": "Join our water engineering team working on innovative water supply, wastewater, and flood management projects across Asia-Pacific. You'll apply hydraulic modeling, sustainable design, and technical expertise to solve complex water challenges.",
+      "responsibilities": [
+        "Design water supply and wastewater systems",
+        "Conduct hydraulic modeling and analysis",
+        "Prepare engineering calculations and technical reports",
+        "Coordinate with clients and regulatory authorities",
+        "Support project delivery from concept to construction",
+        "Contribute to sustainability and climate resilience initiatives"
+      ],
+      "requirements": [
+        "Bachelor's degree in Civil/Environmental Engineering",
+        "4-7 years of water engineering experience",
+        "Professional Engineer registration (or eligible)",
+        "Proficiency in hydraulic modeling software (InfoWorks, HEC-RAS, etc.)",
+        "Knowledge of water and environmental regulations",
+        "Strong problem-solving and analytical skills"
+      ],
+      "benefits": [
+        "Competitive salary package",
+        "Annual performance bonus",
+        "Professional development support",
+        "Hybrid working options",
+        "Medical and dental coverage",
+        "Annual leave and wellness programs"
+      ],
+      "publishedAt": "2024-01-25T00:00:00.000Z"
+    },
+    {
+      "title": "BIM Manager",
+      "slug": "bim-manager",
+      "department": "Digital & Innovation",
+      "location": "Dubai, UAE",
+      "type": "Full-time",
+      "level": "Senior",
+      "description": "Lead BIM implementation and digital delivery strategies for major infrastructure projects in the Middle East. You'll establish BIM standards, manage model coordination, and drive digital transformation across project teams.",
+      "responsibilities": [
+        "Develop and implement BIM execution plans",
+        "Manage BIM coordination across multidisciplinary teams",
+        "Establish modeling standards and protocols",
+        "Conduct clash detection and model reviews",
+        "Train project teams in BIM tools and workflows",
+        "Support digital twin and data handover processes",
+        "Evaluate and implement new digital technologies"
+      ],
+      "requirements": [
+        "Bachelor's degree in Engineering, Architecture, or related field",
+        "7+ years of BIM experience on major projects",
+        "Expert knowledge of Revit, Navisworks, BIM 360",
+        "Strong understanding of ISO 19650 and BIM standards",
+        "Experience with digital project delivery",
+        "Excellent communication and training skills",
+        "Knowledge of scripting (Dynamo, Python) is a plus"
+      ],
+      "benefits": [
+        "Attractive tax-free salary",
+        "Annual flight allowance",
+        "Housing allowance or accommodation",
+        "Private medical insurance",
+        "Professional development budget",
+        "Flexible working arrangements"
+      ],
+      "publishedAt": "2024-02-01T00:00:00.000Z"
+    }
+  ]
+}

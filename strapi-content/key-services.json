@@ -1,0 +1,165 @@
+{
+  "data": [
+    {
+      "title": "Advisory",
+      "slug": "advisory",
+      "description": "Strategic advice and guidance to help you make informed decisions, navigate complex challenges, and achieve your objectives with confidence and clarity.",
+      "content": "Our advisory services provide independent, evidence-based counsel to help clients make better decisions at every stage of their infrastructure journey. From strategic planning and business case development to procurement strategy and risk management, we deliver insights that drive successful outcomes.",
+      "featured": true,
+      "icon": "Lightbulb",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Strategic advisory services"
+      },
+      "capabilities": [
+        "Strategic planning and masterplanning",
+        "Business case development and appraisal",
+        "Feasibility studies and options analysis",
+        "Procurement strategy and contract advisory",
+        "Risk and opportunity management",
+        "Due diligence and technical audits",
+        "Regulatory and policy advisory",
+        "Economic and financial modeling",
+        "Asset strategy development"
+      ],
+      "sectors": ["All Markets"],
+      "expertise": "Our advisory consultants bring decades of infrastructure experience combined with deep sector knowledge. We work with government, investors, developers, and asset owners to navigate complexity, mitigate risk, and unlock value. Our independent perspective and technical credibility help clients build confidence in their decisions.",
+      "publishedAt": "2024-02-05T00:00:00.000Z"
+    },
+    {
+      "title": "Engineering Design",
+      "slug": "engineering-design",
+      "description": "Innovative engineering solutions that combine technical excellence with sustainability, delivering designs that are efficient, safe, and future-ready.",
+      "content": "We deliver world-class engineering design across all infrastructure sectors and disciplines. Our multidisciplinary teams combine creativity with technical rigor to solve complex challenges and realize ambitious visions. From concept through detailed design, we use advanced tools and methodologies to optimize performance, cost, and sustainability.",
+      "featured": true,
+      "icon": "Compass",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Engineering design excellence"
+      },
+      "capabilities": [
+        "Civil and structural engineering",
+        "Mechanical, electrical, and plumbing (MEP)",
+        "Transportation engineering",
+        "Water and environmental engineering",
+        "Geotechnical and foundation engineering",
+        "Process and industrial engineering",
+        "Architectural engineering and building physics",
+        "Fire safety and life safety engineering",
+        "Advanced computational analysis and modeling",
+        "Building Information Modeling (BIM) and digital design"
+      ],
+      "sectors": ["All Markets"],
+      "expertise": "Our engineering teams include chartered engineers, technical specialists, and design innovators who have delivered some of the world's most complex and iconic infrastructure. We apply rigorous design standards while embracing innovation to create infrastructure that performs, endures, and inspires.",
+      "publishedAt": "2024-02-10T00:00:00.000Z"
+    },
+    {
+      "title": "Project Management",
+      "slug": "project-management",
+      "description": "End-to-end project delivery expertise ensuring your projects are completed on time, within budget, and to the highest quality standards.",
+      "content": "Our project management professionals orchestrate every aspect of infrastructure delivery from inception through handover. We bring proven processes, experienced teams, and a collaborative approach to keep projects on track, manage risks proactively, and deliver successful outcomes for all stakeholders.",
+      "featured": true,
+      "icon": "Calendar",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Project management and delivery"
+      },
+      "capabilities": [
+        "Programme and project management",
+        "Construction management and supervision",
+        "Contract administration and procurement",
+        "Cost management and quantity surveying",
+        "Planning and scheduling",
+        "Risk and opportunity management",
+        "Quality assurance and quality control",
+        "Health, safety, and environmental management",
+        "Stakeholder and community engagement",
+        "Commissioning and handover support"
+      ],
+      "sectors": ["All Markets"],
+      "expertise": "With experience managing megaprojects across the globe, our project managers understand the complexities of modern infrastructure delivery. We tailor our approach to suit project scale, complexity, and client needs, bringing structure, discipline, and leadership to drive successful outcomes.",
+      "publishedAt": "2024-02-15T00:00:00.000Z"
+    },
+    {
+      "title": "Digital Solutions",
+      "slug": "digital-solutions",
+      "description": "Cutting-edge digital technologies and data analytics to transform infrastructure planning, design, construction, and operation for better outcomes.",
+      "content": "We harness digital innovation to reimagine how infrastructure is planned, designed, built, and operated. From Building Information Modeling and digital twins to AI-powered analytics and IoT integration, our digital solutions improve decision-making, enhance collaboration, reduce costs, and optimize asset performance throughout the lifecycle.",
+      "featured": true,
+      "icon": "Monitor",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Digital engineering and technology"
+      },
+      "capabilities": [
+        "Building Information Modeling (BIM) and digital engineering",
+        "Digital twins and virtual modeling",
+        "Geographic Information Systems (GIS)",
+        "Data analytics and artificial intelligence",
+        "Computational modeling and simulation",
+        "Internet of Things (IoT) and sensor integration",
+        "Virtual and augmented reality applications",
+        "Drone surveying and photogrammetry",
+        "Digital project delivery platforms",
+        "Cybersecurity for critical infrastructure"
+      ],
+      "sectors": ["All Markets"],
+      "expertise": "Our digital specialists sit at the intersection of engineering and technology, translating emerging capabilities into practical applications. We implement digital workflows that enhance collaboration, improve quality, accelerate delivery, and enable predictive maintenance and performance optimization.",
+      "publishedAt": "2024-02-20T00:00:00.000Z"
+    },
+    {
+      "title": "Asset Management",
+      "slug": "asset-management",
+      "description": "Comprehensive asset lifecycle management services to maximize performance, minimize costs, and extend the life of your infrastructure assets.",
+      "content": "We help asset owners optimize the performance and value of their infrastructure portfolios through strategic asset management planning, condition assessment, maintenance optimization, and capital investment programming. Our data-driven approach balances service levels, risk, and cost to deliver sustainable asset management outcomes.",
+      "featured": true,
+      "icon": "Settings",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Asset management and optimization"
+      },
+      "capabilities": [
+        "Asset management strategy and planning (ISO 55000)",
+        "Asset condition assessment and monitoring",
+        "Lifecycle cost analysis and optimization",
+        "Maintenance strategy and planning",
+        "Capital investment programming",
+        "Risk-based asset management",
+        "Performance measurement and benchmarking",
+        "Asset information management systems",
+        "Renewal and refurbishment planning",
+        "Decommissioning and disposal strategy"
+      ],
+      "sectors": ["All Markets"],
+      "expertise": "Our asset management consultants bring technical engineering knowledge combined with business acumen to help organizations get the most from their infrastructure investments. We implement international best practices adapted to local context, using analytics and modeling to support evidence-based decision-making.",
+      "publishedAt": "2024-02-25T00:00:00.000Z"
+    },
+    {
+      "title": "Sustainability Consulting",
+      "slug": "sustainability",
+      "description": "Environmental and sustainability expertise to help you meet net zero targets, achieve climate resilience, and deliver socially responsible projects.",
+      "content": "We integrate sustainability into every aspect of infrastructure development, helping clients reduce carbon footprints, enhance climate resilience, and deliver positive social and environmental outcomes. Our sustainability consultants provide strategic advice, technical assessment, and design support to embed low-carbon and climate-adaptive thinking into projects.",
+      "featured": true,
+      "icon": "Recycle",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Sustainability and climate consulting"
+      },
+      "capabilities": [
+        "Net zero and decarbonization strategies",
+        "Carbon footprint assessment and reduction",
+        "Climate risk assessment and adaptation planning",
+        "Sustainable design and green building certification",
+        "Circular economy and resource efficiency",
+        "Life cycle assessment (LCA)",
+        "Renewable energy integration",
+        "Nature-based solutions and green infrastructure",
+        "Sustainability reporting and ESG compliance",
+        "Climate scenario modeling and resilience planning"
+      ],
+      "sectors": ["All Markets"],
+      "expertise": "Our sustainability team includes environmental engineers, climate scientists, LEED/BREEAM accredited professionals, and sustainability strategists. We use quantitative assessment tools including carbon modeling, life cycle analysis, and climate projections to design infrastructure that minimizes environmental impact and adapts to future climate conditions.",
+      "publishedAt": "2024-03-01T00:00:00.000Z"
+    }
+  ]
+}

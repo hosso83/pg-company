@@ -1,0 +1,178 @@
+{
+  "data": [
+    {
+      "title": "Transportation Engineering",
+      "slug": "transportation-engineering",
+      "description": "Innovative transport solutions connecting people and places through intelligent infrastructure design.",
+      "content": "Our transportation engineering team delivers integrated solutions for roads, highways, railways, airports, and public transit systems. We combine technical excellence with sustainable design principles to create efficient, safe, and future-ready transport networks.",
+      "featured": true,
+      "icon": "Train",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Transportation infrastructure"
+      },
+      "capabilities": [
+        "Highway and road design",
+        "Rail systems and metro networks",
+        "Airport planning and design",
+        "Traffic modeling and simulation",
+        "Intelligent transport systems",
+        "Public transit planning",
+        "Cycling and pedestrian infrastructure",
+        "Transport economics and policy"
+      ],
+      "sectors": ["Roads and Highways", "Rail and Metro", "Aviation", "Maritime", "Active Transportation"],
+      "expertise": "With over 50 years of experience, our transportation team has delivered iconic projects on every continent. We leverage advanced digital tools including traffic microsimulation, BIM, and data analytics to optimize transport network performance. Our engineers work across all project stages from strategic planning through detailed design to construction supervision.",
+      "caseStudies": ["Dubai Metro Red Line Extension", "Riyadh Metro Network", "Sydney Light Rail"],
+      "relatedServices": ["Civil Engineering", "Project Management", "Digital Engineering"],
+      "publishedAt": "2023-01-10T00:00:00.000Z"
+    },
+    {
+      "title": "Water & Environment",
+      "slug": "water-environment",
+      "description": "Protecting water resources and creating resilient solutions for a sustainable future.",
+      "content": "We design innovative water infrastructure and environmental solutions that protect natural resources, improve public health, and build resilience to climate change. From water supply and wastewater treatment to flood management and environmental restoration, we deliver sustainable outcomes for communities worldwide.",
+      "featured": true,
+      "icon": "Droplet",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Water infrastructure"
+      },
+      "capabilities": [
+        "Water supply and distribution",
+        "Wastewater treatment and collection",
+        "Hydraulic modeling and analysis",
+        "Flood risk management",
+        "Environmental impact assessment",
+        "Water resources management",
+        "Coastal engineering",
+        "Contaminated land remediation"
+      ],
+      "sectors": ["Water Supply", "Wastewater", "Flood Management", "Coastal Engineering", "Environmental Restoration"],
+      "expertise": "Our water and environment specialists combine deep technical knowledge with innovative thinking to solve complex water challenges. We use advanced modeling tools and nature-based solutions to design infrastructure that works with natural systems. Climate resilience is embedded in everything we do.",
+      "caseStudies": [
+        "Thames Tideway Tunnel",
+        "Singapore Deep Tunnel Sewerage System",
+        "Rotterdam Climate Adaptation Strategy"
+      ],
+      "relatedServices": ["Civil Engineering", "Sustainability", "Climate Resilience"],
+      "publishedAt": "2023-01-15T00:00:00.000Z"
+    },
+    {
+      "title": "Buildings & Infrastructure",
+      "slug": "buildings-infrastructure",
+      "description": "Creating exceptional buildings and infrastructure that enhance communities and stand the test of time.",
+      "content": "We deliver comprehensive engineering services for buildings and infrastructure of all types and scales. Our multidisciplinary teams provide structural, MEP, façade, and geotechnical engineering alongside building physics, acoustics, and sustainability consulting to create high-performance, resilient buildings.",
+      "featured": true,
+      "icon": "Building2",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Modern building"
+      },
+      "capabilities": [
+        "Structural engineering",
+        "MEP (mechanical, electrical, plumbing) design",
+        "Façade engineering",
+        "Geotechnical engineering",
+        "Building physics and acoustics",
+        "Fire engineering",
+        "Vertical transportation",
+        "Building information modeling (BIM)"
+      ],
+      "sectors": ["Commercial", "Residential", "Healthcare", "Education", "Sports & Leisure", "Cultural"],
+      "expertise": "From landmark skyscrapers to essential infrastructure, our buildings team brings technical excellence and creative problem-solving to every project. We collaborate closely with architects and clients to realize ambitious visions while ensuring buildings are safe, sustainable, and economically viable. Our engineers are experts in complex structures, advanced materials, and integrated building systems.",
+      "caseStudies": ["Burj Khalifa Structural Engineering", "London Crossrail Stations", "Singapore Sports Hub"],
+      "relatedServices": ["Structural Engineering", "Sustainability", "Digital Engineering"],
+      "publishedAt": "2023-01-20T00:00:00.000Z"
+    },
+    {
+      "title": "Energy & Power",
+      "slug": "energy-power",
+      "description": "Powering the transition to clean, reliable, and affordable energy for all.",
+      "content": "Our energy engineers design power generation, transmission, and distribution infrastructure for conventional and renewable sources. We help clients navigate the energy transition, decarbonize operations, and build resilient power systems that support economic development while protecting the environment.",
+      "featured": true,
+      "icon": "Zap",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Renewable energy infrastructure"
+      },
+      "capabilities": [
+        "Renewable energy (wind, solar, hydro)",
+        "Power generation and distribution",
+        "Electrical substations and networks",
+        "Energy storage systems",
+        "Grid modernization and smart grids",
+        "Energy efficiency and decarbonization",
+        "Nuclear power",
+        "Oil and gas infrastructure"
+      ],
+      "sectors": ["Renewable Energy", "Power Generation", "Transmission & Distribution", "Oil & Gas", "Nuclear"],
+      "expertise": "With decades of experience across all energy sectors, our specialists understand the technical, economic, and environmental challenges of modern energy systems. We design infrastructure that balances reliability, sustainability, and affordability. Our team includes electrical engineers, process engineers, and energy economists who deliver integrated solutions from feasibility through operations.",
+      "caseStudies": [
+        "London Array Offshore Wind Farm",
+        "Saudi Aramco Power Distribution",
+        "Hinkley Point C Nuclear Power Station"
+      ],
+      "relatedServices": ["Project Management", "Sustainability", "Climate Resilience"],
+      "publishedAt": "2023-01-25T00:00:00.000Z"
+    },
+    {
+      "title": "Digital Engineering",
+      "slug": "digital-engineering",
+      "description": "Harnessing digital technology to transform infrastructure delivery and asset performance.",
+      "content": "We leverage cutting-edge digital technologies including BIM, digital twins, AI, and data analytics to optimize infrastructure design, construction, and operations. Our digital engineering services help clients make better decisions, reduce costs, improve safety, and enhance asset performance throughout the project lifecycle.",
+      "featured": false,
+      "icon": "Cpu",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Digital engineering"
+      },
+      "capabilities": [
+        "Building Information Modeling (BIM)",
+        "Digital twins and asset management",
+        "Geographic Information Systems (GIS)",
+        "Computational modeling and simulation",
+        "Data analytics and AI",
+        "Virtual and augmented reality",
+        "Internet of Things (IoT) integration",
+        "Drone surveying and photogrammetry"
+      ],
+      "sectors": ["Infrastructure", "Buildings", "Transportation", "Water", "Energy"],
+      "expertise": "Our digital engineering specialists are at the forefront of infrastructure digitalization. We implement digital workflows that enhance collaboration, improve quality, and accelerate delivery. From parametric design and automated clash detection to predictive maintenance using AI, we help clients harness the full potential of digital technology.",
+      "caseStudies": ["Crossrail Digital Twin Implementation", "HS2 BIM Strategy", "Smart City Platform Development"],
+      "relatedServices": ["Project Management", "Asset Management", "All Engineering Services"],
+      "publishedAt": "2023-02-01T00:00:00.000Z"
+    },
+    {
+      "title": "Sustainability & Climate Resilience",
+      "slug": "sustainability-climate-resilience",
+      "description": "Building a sustainable future through low-carbon design and climate-resilient infrastructure.",
+      "content": "We help clients achieve their sustainability goals and adapt to climate change through innovative design, strategic consulting, and holistic assessment services. Our specialists integrate environmental, social, and economic considerations into every project to deliver lasting positive outcomes.",
+      "featured": false,
+      "icon": "Leaf",
+      "image": {
+        "url": "/placeholder.svg?height=800&width=1200",
+        "alternativeText": "Sustainable infrastructure"
+      },
+      "capabilities": [
+        "Carbon footprint assessment and reduction",
+        "Climate risk and adaptation planning",
+        "Sustainable design (LEED, BREEAM, etc.)",
+        "Circular economy strategies",
+        "Nature-based solutions",
+        "Environmental and social impact assessment",
+        "Climate scenario modeling",
+        "Net zero strategies"
+      ],
+      "sectors": ["All Sectors"],
+      "expertise": "Our sustainability team includes environmental scientists, climate specialists, and sustainability engineers who embed low-carbon and climate-resilient thinking into infrastructure projects. We use life cycle assessment, carbon modeling, and climate projections to design infrastructure that minimizes environmental impact and adapts to future climate conditions.",
+      "caseStudies": [
+        "Thames Tideway Carbon Reduction",
+        "Singapore Green Building Masterplan",
+        "Rotterdam Climate Adaptation"
+      ],
+      "relatedServices": ["Environmental Engineering", "All Engineering Services"],
+      "publishedAt": "2023-02-05T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "data": {
+    "homepage": {
+      "hero": {
+        "title": "Engineering Excellence",
+        "subtitle": "Delivering sustainable infrastructure and innovative solutions worldwide",
+        "backgroundImage": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop&q=80"
+      },
+      "introduction": {
+        "title": "Who We Are",
+        "content": "We are a global engineering consultancy opening opportunities for everyone through sustainable infrastructure development. With 18,000 experts across 50 countries, we deliver complex projects that shape communities and improve lives."
+      },
+      "stats": [
+        {
+          "label": "Countries",
+          "value": "50"
+        },
+        {
+          "label": "Experts Worldwide",
+          "value": "18000"
+        },
+        {
+          "label": "Projects Delivered",
+          "value": "5000"
+        },
+        {
+          "label": "Years of Excellence",
+          "value": "150"
+        }
+      ]
+    },
+    "about": {
+      "mission": {
+        "title": "Our Mission",
+        "content": "To open opportunities with connected thinking, making infrastructure that improves life and delivers a better world."
+      },
+      "values": [
+        {
+          "title": "Progress",
+          "description": "We bring a spirit of curiosity and innovation to every project, constantly pushing boundaries to find better solutions."
+        },
+        {
+          "title": "Respect",
+          "description": "We value diversity and treat everyone with dignity, creating an inclusive environment where all voices are heard."
+        },
+        {
+          "title": "Integrity",
+          "description": "We act honestly and ethically in all our dealings, building trust through transparency and accountability."
+        },
+        {
+          "title": "Excellence",
+          "description": "We pursue the highest standards in everything we do, delivering quality outcomes that exceed expectations."
+        }
+      ],
+      "heritage": {
+        "title": "Our Heritage",
+        "content": "Founded in 1989 through the merger of Mott, Hay and Anderson and Sir M MacDonald & Partners, we brought together two firms with over a century of engineering excellence. Today, we continue that proud tradition, working on some of the world's most challenging and exciting infrastructure projects."
+      },
+      "accreditations": [
+        "ISO 9001 Quality Management",
+        "ISO 14001 Environmental Management",
+        "ISO 45001 Health & Safety",
+        "Carbon Neutral Certification"
+      ]
+    },
+    "contact": {
+      "offices": [
+        {
+          "city": "London",
+          "country": "United Kingdom",
+          "address": "8-10 Sydenham Road, Croydon, CR0 2EE",
+          "phone": "+44 20 8774 2000",
+          "email": "london@company.com"
+        },
+        {
+          "city": "New York",
+          "country": "United States",
+          "address": "350 5th Avenue, 59th Floor, New York, NY 10118",
+          "phone": "+1 212 465 5000",
+          "email": "newyork@company.com"
+        },
+        {
+          "city": "Dubai",
+          "country": "United Arab Emirates",
+          "address": "Level 3, Gate Village 4, DIFC, Dubai",
+          "phone": "+971 4 407 0700",
+          "email": "dubai@company.com"
+        },
+        {
+          "city": "Singapore",
+          "country": "Singapore",
+          "address": "9 Battery Road, #20-01, Singapore 049910",
+          "phone": "+65 6320 3000",
+          "email": "singapore@company.com"
+        }
+      ],
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/company/mottmac",
+        "twitter": "https://twitter.com/mottmacgroup",
+        "youtube": "https://youtube.com/mottmacgroup",
+        "instagram": "https://instagram.com/mottmacgroup"
+      }
+    }
+  }
+}

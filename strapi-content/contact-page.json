@@ -1,0 +1,127 @@
+{
+  "data": {
+    "id": 1,
+    "attributes": {
+      "heroTitle": "Get in Touch",
+      "heroSubtitle": "Have a project in mind? Our team of experts is ready to help you bring your vision to life. Contact us today to discuss how we can support your goals.",
+      "contactInfo": {
+        "headquarters": {
+          "name": "Global Headquarters",
+          "address": "1 Whitehall Place",
+          "city": "London",
+          "postcode": "SW1A 2HD",
+          "country": "United Kingdom",
+          "phone": "+44 (0) 20 7123 4567",
+          "email": "info@engineeringglobal.com"
+        },
+        "internationalPhone": "+1 800 123 4567",
+        "careersEmail": "careers@engineeringglobal.com",
+        "mediaEmail": "press@engineeringglobal.com",
+        "businessHours": {
+          "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+          "weekends": "Saturday - Sunday: Closed",
+          "timezone": "GMT (London)"
+        }
+      },
+      "offices": [
+        {
+          "name": "London Office",
+          "address": "8-10 Sydenham Road, Croydon",
+          "city": "London",
+          "postcode": "CR0 2EE",
+          "country": "United Kingdom",
+          "phone": "+44 20 8774 2000",
+          "email": "london@engineeringglobal.com",
+          "region": "Europe"
+        },
+        {
+          "name": "New York Office",
+          "address": "350 5th Avenue, 59th Floor",
+          "city": "New York",
+          "postcode": "NY 10118",
+          "country": "United States",
+          "phone": "+1 212 465 5000",
+          "email": "newyork@engineeringglobal.com",
+          "region": "North America"
+        },
+        {
+          "name": "Dubai Office",
+          "address": "Level 3, Gate Village 4, DIFC",
+          "city": "Dubai",
+          "postcode": "",
+          "country": "United Arab Emirates",
+          "phone": "+971 4 407 0700",
+          "email": "dubai@engineeringglobal.com",
+          "region": "Middle East"
+        },
+        {
+          "name": "Singapore Office",
+          "address": "9 Battery Road, #20-01",
+          "city": "Singapore",
+          "postcode": "049910",
+          "country": "Singapore",
+          "phone": "+65 6320 3000",
+          "email": "singapore@engineeringglobal.com",
+          "region": "Asia Pacific"
+        },
+        {
+          "name": "Sydney Office",
+          "address": "Level 9, 50 Margaret Street",
+          "city": "Sydney",
+          "postcode": "NSW 2000",
+          "country": "Australia",
+          "phone": "+61 2 9098 8000",
+          "email": "sydney@engineeringglobal.com",
+          "region": "Asia Pacific"
+        },
+        {
+          "name": "Toronto Office",
+          "address": "181 Bay Street, Suite 350",
+          "city": "Toronto",
+          "postcode": "ON M5J 2T3",
+          "country": "Canada",
+          "phone": "+1 416 813 5600",
+          "email": "toronto@engineeringglobal.com",
+          "region": "North America"
+        },
+        {
+          "name": "Amsterdam Office",
+          "address": "Strawinskylaan 3125, Floor 8",
+          "city": "Amsterdam",
+          "postcode": "1077 ZX",
+          "country": "Netherlands",
+          "phone": "+31 20 354 6200",
+          "email": "amsterdam@engineeringglobal.com",
+          "region": "Europe"
+        }
+      ],
+      "formSettings": {
+        "services": [
+          "Transport",
+          "Energy",
+          "Water",
+          "Buildings",
+          "Environment",
+          "Digital Services",
+          "Advisory",
+          "Other"
+        ],
+        "responseTime": "We aim to respond to all inquiries within 24 hours during business days.",
+        "privacyNote": "Your personal information will be handled in accordance with our privacy policy. We will only use it to respond to your inquiry."
+      },
+      "socialMedia": {
+        "linkedin": "https://linkedin.com/company/engineeringglobal",
+        "twitter": "https://twitter.com/engineerglobal",
+        "youtube": "https://youtube.com/engineeringglobal",
+        "instagram": "https://instagram.com/engineeringglobal",
+        "facebook": "https://facebook.com/engineeringglobal"
+      },
+      "mapSettings": {
+        "centerLat": 51.5074,
+        "centerLng": -0.1278,
+        "zoom": 12,
+        "showAllOffices": true
+      }
+    }
+  }
+}

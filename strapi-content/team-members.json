@@ -1,0 +1,172 @@
+{
+  "data": [
+    {
+      "name": "Dr. Sarah Mitchell",
+      "slug": "sarah-mitchell",
+      "title": "Global Head of Transportation",
+      "department": "Transportation",
+      "location": "London, United Kingdom",
+      "email": "sarah.mitchell@company.com",
+      "bio": "Dr. Sarah Mitchell is an internationally recognized expert in transportation engineering with over 25 years of experience. She leads our global transportation practice, overseeing major rail, highway, and airport projects worldwide. Sarah is passionate about sustainable mobility and has pioneered several innovative approaches to integrated transport planning.",
+      "expertise": ["Rail Engineering", "Transport Planning", "Sustainable Mobility", "Urban Transit"],
+      "qualifications": [
+        "PhD in Transportation Engineering, MIT",
+        "MEng Civil Engineering, Imperial College London",
+        "Chartered Engineer (CEng)",
+        "Fellow of the Institution of Civil Engineers"
+      ],
+      "achievements": [
+        "Led design of 3 major metro systems across Middle East and Asia",
+        "Published 40+ papers on sustainable transportation",
+        "Winner of ICE Transport Award 2022",
+        "Board member of Women in Rail"
+      ],
+      "featured": true,
+      "image": {
+        "url": "/placeholder.svg?height=600&width=600",
+        "alternativeText": "Dr. Sarah Mitchell"
+      },
+      "publishedAt": "2023-01-10T00:00:00.000Z"
+    },
+    {
+      "name": "James Chen",
+      "slug": "james-chen",
+      "title": "Technical Director - Water Infrastructure",
+      "department": "Water & Environment",
+      "location": "Singapore",
+      "email": "james.chen@company.com",
+      "bio": "James Chen is a leading water infrastructure specialist with expertise in large-scale water and wastewater systems. He has delivered some of Asia's most complex water projects, including deep tunnel sewers and water treatment facilities. James is known for his innovative hydraulic designs and commitment to sustainable water management.",
+      "expertise": ["Hydraulic Engineering", "Water Treatment", "Tunnel Engineering", "Flood Management"],
+      "qualifications": [
+        "MEng Water Resources Engineering, NUS",
+        "BSc Civil Engineering, University of Melbourne",
+        "Professional Engineer (PE)",
+        "LEED Accredited Professional"
+      ],
+      "achievements": [
+        "Project director for $5 billion deep tunnel sewerage system",
+        "Developed proprietary hydraulic modeling software",
+        "Speaker at World Water Congress 2023",
+        "Mentor to 15+ young engineers"
+      ],
+      "featured": true,
+      "image": {
+        "url": "/placeholder.svg?height=600&width=600",
+        "alternativeText": "James Chen"
+      },
+      "publishedAt": "2023-01-15T00:00:00.000Z"
+    },
+    {
+      "name": "Maria Rodriguez",
+      "slug": "maria-rodriguez",
+      "title": "Associate Director - Structural Engineering",
+      "department": "Buildings & Infrastructure",
+      "location": "New York, USA",
+      "email": "maria.rodriguez@company.com",
+      "bio": "Maria Rodriguez is an accomplished structural engineer specializing in high-rise buildings and complex structures. With a strong background in advanced structural analysis and seismic design, she has contributed to numerous landmark projects across North and South America. Maria is passionate about pushing the boundaries of structural engineering through innovative materials and design approaches.",
+      "expertise": ["High-rise Structures", "Seismic Design", "Advanced Materials", "Computational Analysis"],
+      "qualifications": [
+        "MS Structural Engineering, Stanford University",
+        "BS Civil Engineering, Universidad Nacional",
+        "Structural Engineer (SE) License",
+        "Member of Structural Engineers Association"
+      ],
+      "achievements": [
+        "Structural lead on 12 supertall towers",
+        "Pioneered use of high-strength concrete in seismic zones",
+        "ASCE Outstanding Projects Award winner",
+        "Published book on modern structural systems"
+      ],
+      "featured": true,
+      "image": {
+        "url": "/placeholder.svg?height=600&width=600",
+        "alternativeText": "Maria Rodriguez"
+      },
+      "publishedAt": "2023-01-20T00:00:00.000Z"
+    },
+    {
+      "name": "David Thompson",
+      "slug": "david-thompson",
+      "title": "Regional Director - Middle East",
+      "department": "Regional Leadership",
+      "location": "Dubai, UAE",
+      "email": "david.thompson@company.com",
+      "bio": "David Thompson leads our Middle East operations, overseeing a diverse portfolio of infrastructure, buildings, and energy projects. With 30 years of international experience, he has built strong relationships with clients across the region and established our reputation for delivering excellence in challenging environments. David is committed to developing local talent and sustainable infrastructure solutions.",
+      "expertise": ["Project Management", "Business Development", "Client Relations", "Strategic Planning"],
+      "qualifications": [
+        "MBA, London Business School",
+        "MEng Civil Engineering, University of Edinburgh",
+        "Chartered Engineer (CEng)",
+        "Project Management Professional (PMP)"
+      ],
+      "achievements": [
+        "Grew Middle East revenue to $200M annually",
+        "Delivered 50+ major projects across Gulf region",
+        "Established graduate training program for local engineers",
+        "Industry representative on UAE sustainability council"
+      ],
+      "featured": true,
+      "image": {
+        "url": "/placeholder.svg?height=600&width=600",
+        "alternativeText": "David Thompson"
+      },
+      "publishedAt": "2023-01-25T00:00:00.000Z"
+    },
+    {
+      "name": "Aisha Patel",
+      "slug": "aisha-patel",
+      "title": "Director of Sustainability",
+      "department": "Sustainability & Climate Resilience",
+      "location": "London, United Kingdom",
+      "email": "aisha.patel@company.com",
+      "bio": "Aisha Patel leads our global sustainability practice, helping clients achieve net zero targets and build climate-resilient infrastructure. Her expertise spans carbon management, climate adaptation, and sustainable design across all sectors. Aisha is a frequent speaker on climate action and has advised governments and corporations on decarbonization strategies.",
+      "expertise": ["Climate Change Adaptation", "Carbon Management", "Sustainable Design", "ESG Strategy"],
+      "qualifications": [
+        "PhD Environmental Science, Oxford University",
+        "MSc Sustainability Management, Imperial College",
+        "BREEAM Assessor",
+        "Science-Based Targets Practitioner"
+      ],
+      "achievements": [
+        "Developed company net zero framework",
+        "Advised on $10B+ low-carbon infrastructure programs",
+        "UNFCCC delegate for climate negotiations",
+        "Author of 'Engineering for Climate Resilience'"
+      ],
+      "featured": false,
+      "image": {
+        "url": "/placeholder.svg?height=600&width=600",
+        "alternativeText": "Aisha Patel"
+      },
+      "publishedAt": "2023-02-01T00:00:00.000Z"
+    },
+    {
+      "name": "Robert Kim",
+      "slug": "robert-kim",
+      "title": "Principal Engineer - Digital Engineering",
+      "department": "Digital & Innovation",
+      "location": "Seoul, South Korea",
+      "email": "robert.kim@company.com",
+      "bio": "Robert Kim is a pioneer in digital engineering, specializing in BIM, digital twins, and AI applications for infrastructure. He leads our digital transformation initiatives, helping project teams leverage technology to improve design quality, collaboration, and asset performance. Robert's work has set new standards for digital delivery in the industry.",
+      "expertise": ["Building Information Modeling", "Digital Twins", "AI & Machine Learning", "Data Analytics"],
+      "qualifications": [
+        "MS Computer Science, KAIST",
+        "BS Civil Engineering, Seoul National University",
+        "Certified BIM Professional",
+        "AWS Certified Solutions Architect"
+      ],
+      "achievements": [
+        "Implemented BIM on 200+ projects",
+        "Developed AI-powered design optimization tools",
+        "Winner of Digital Construction Award 2023",
+        "Trained 500+ engineers in digital methods"
+      ],
+      "featured": false,
+      "image": {
+        "url": "/placeholder.svg?height=600&width=600",
+        "alternativeText": "Robert Kim"
+      },
+      "publishedAt": "2023-02-05T00:00:00.000Z"
+    }
+  ]
+}
