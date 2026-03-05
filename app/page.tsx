@@ -46,8 +46,6 @@ export default async function HomePage() {
   let services = [];
   let pageContent = null;
 
-  let pageGlobals: Global | null = null;
-
   try {
     const [projectsData, servicesData, contentData, globalsData] =
       await Promise.all([
@@ -59,7 +57,6 @@ export default async function HomePage() {
     projects = projectsData.data;
     services = servicesData.data;
     pageContent = contentData;
-    pageGlobals = globalsData;
     console.log("Page Content:", pageContent);
   } catch (error) {
     console.error("Error fetching data from Strapi:", error);

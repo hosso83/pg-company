@@ -288,7 +288,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 }
 
 export async function generateStaticParams() {
-  let services = [];
+  let services: any[] = [];
 
   try {
     const servicesData = await getServices();

@@ -4,7 +4,7 @@ import { HeroBanner } from "@/components/hero-banner";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, MapPin, Clock, Briefcase } from "lucide-react";
-import type { Metadata } from "next/metadata";
+import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SectionCTA } from "@/components/section-cta";
 

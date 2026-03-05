@@ -145,10 +145,14 @@ export async function getGlobals(): Promise<Global | null> {
 export async function getProjects(
   page = 1,
   pageSize = 5,
+  region?: string,
 ): Promise<StrapiResponse<Project[]>> {
   try {
     const data = projectsData as { data: Project[] };
-    const projects = Array.isArray(data.data) ? data.data : [];
+    const allProjects = Array.isArray(data.data) ? data.data : [];
+    const projects = region
+      ? allProjects.filter((project) => project.region === region)
+      : allProjects;
 
     // Handle pagination
     const start = (page - 1) * pageSize;

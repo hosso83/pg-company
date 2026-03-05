@@ -4,7 +4,7 @@ import { HeroBanner } from "@/components/hero-banner";
 import { TeamMemberCard } from "@/components/team-member-card";
 import { Button } from "@/components/ui/button";
 import { getTeamMembers } from "@/lib/strapi";
-import type { Metadata } from "next/metadata";
+import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SectionCTA } from "@/components/section-cta";
 

@@ -7,7 +7,7 @@ import type { Service } from "@/lib/strapi";
 import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 interface ServiceCardProps {
-  service: Service;
+  service: Service | { id?: number; attributes: Service };
   index: number;
 }
 
@@ -20,7 +20,9 @@ const iconMap: Record<string, any> = {
 
 export function ServiceCard({ service, index }: ServiceCardProps) {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 });
-  const { title, description, icon, slug } = service.attributes;
+  const normalizedService =
+    "attributes" in service ? service.attributes : service;
+  const { title, description, icon, slug } = normalizedService;
   const Icon = iconMap[icon] || Building2;
 
   return (

@@ -3,9 +3,10 @@ import { Footer } from "@/components/footer";
 import { HeroBanner } from "@/components/hero-banner";
 import { ServiceCard } from "@/components/service-card";
 import { getServices } from "@/lib/strapi";
+import type { Service } from "@/lib/strapi";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import type { Metadata } from "next/metadata";
+import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SectionCTA } from "@/components/section-cta";
 
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
 };
 
 export default async function ServicesPage() {
-  let services = [];
+  let services: Service[] = [];
 
   try {
     const servicesData = await getServices();

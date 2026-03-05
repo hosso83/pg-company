@@ -15,7 +15,7 @@ import {
   Shield,
 } from "lucide-react";
 import Link from "next/link";
-import type { Metadata } from "next/metadata";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Markets & Services | Engineering Global",
@@ -212,7 +212,7 @@ export default function MarketsServicesPage() {
 
               <div className="text-center">
                 <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full bg-secondary">
-                  <span className="text-3xl font-bold text-white">80+</span>
+                  <span className="text-3xl font-bold text-white">10+</span>
                 </div>
                 <h3 className="mb-2 text-xl font-semibold text-foreground">
                   Countries
