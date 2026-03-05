@@ -254,7 +254,7 @@ export default function MaikhanPitchPage() {
         <HeroBanner
           title="Maikhan Pumped Storage Hydropower"
           description="Strategic energy storage for Mongolia's grid stability and renewable integration"
-          image="/img/hydro-power.avif"
+          image="/img/maikhan-power-grid.jpg"
           alt="Maikhan Hydropower Project"
         />
 
@@ -286,12 +286,12 @@ export default function MaikhanPitchPage() {
           <div
             className="h-full w-full bg-cover bg-center"
             style={{
-              backgroundImage: "url('/img/maikhan-power-grid.jpg')",
+              backgroundImage: "url('/img/hydro-power.avif')",
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-r from-primary/60 to-transparent" />
-          <div className="absolute inset-0 flex items-center px-4">
-            <div className="max-w-2xl text-white">
+          <div className="absolute inset-0 flex items-center justify-center px-4">
+            <div className="max-w-2xl text-white text-center">
               <h3 className="text-4xl font-bold">Grid Stability</h3>
               <p className="mt-4 text-lg text-white/90">
                 Providing dispatchable power during peak demand and supporting
@@ -424,12 +424,12 @@ export default function MaikhanPitchPage() {
           <div
             className="h-full w-full bg-cover bg-center"
             style={{
-              backgroundImage: "url('/img/maikhan-turbines.jpg')",
+              backgroundImage: "url('/img/high-tech.avif')",
             }}
           />
           <div className="absolute inset-0 bg-gradient-to-l from-primary/60 to-transparent" />
-          <div className="absolute inset-0 flex items-end justify-end px-4 pb-12">
-            <div className="max-w-2xl text-right text-white">
+          <div className="absolute inset-0 flex items-end justify-center px-4 pb-12">
+            <div className="max-w-2xl text-center text-white">
               <h3 className="text-4xl font-bold">Advanced Technology</h3>
               <p className="mt-4 text-lg text-white/90">
                 Three 25 MW reversible turbine-generators with 265m net head for

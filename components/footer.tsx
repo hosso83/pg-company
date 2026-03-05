@@ -5,7 +5,7 @@ import { useScrollAnimation } from "@/hooks/use-scroll-animation";
 
 const footer_nav = [
   {
-    title: "Engineering Global",
+    title: "Project Globally",
     links: [
       { label: "About us", href: "/about" },
       { label: "Careers", href: "/careers" },
@@ -15,8 +15,8 @@ const footer_nav = [
   {
     title: "Markets",
     links: [
-      { label: "Transport", href: "/services/transport" },
       { label: "Energy", href: "/services/energy" },
+      { label: "Transport", href: "/services/transport" },
       { label: "Water", href: "/services/water" },
       { label: "Buildings", href: "/services/buildings" },
     ],
