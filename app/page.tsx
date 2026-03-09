@@ -85,7 +85,13 @@ export default async function HomePage() {
         />
 
         {/* About Section */}
-        <AboutSection />
+        <AboutSection
+          title={pageContent?.introductionTitle || "Who we are"}
+          content={
+            pageContent?.introductionContent ||
+            "We plan, design, deliver and maintain the transport, energy, water, buildings and wider infrastructure that is integral to people’s daily lives."
+          }
+        />
 
         <SectionDivider
           imageSrc="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&h=1080&fit=crop&q=80"

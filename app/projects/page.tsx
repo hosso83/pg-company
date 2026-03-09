@@ -165,9 +165,8 @@ export default function ProjectsPage() {
         <HeroBanner
           image="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1920&h=1080&fit=crop&q=80"
           alt="Our Projects"
-          title={projectPage?.title || "Our Projects"}
+          title={"Our Projects"}
           description={
-            projectPage?.description ||
             "Discover our global portfolio of infrastructure projects. From transport systems to renewable energy, we deliver projects that transform communities worldwide."
           }
         />

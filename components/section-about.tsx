@@ -6,8 +6,14 @@ import { motion } from "framer-motion";
 import { ProjectCard } from "./project-card";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
+import { AdminInlineText } from "@/components/admin-inline-text";
 
-export default function AboutSection() {
+interface AboutSectionProps {
+  title: string;
+  content: string;
+}
+
+export default function AboutSection({ title, content }: AboutSectionProps) {
   const [projects, setProjects] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -45,14 +51,20 @@ export default function AboutSection() {
           <div className="small-title" data-animate="fade">
             About Us
           </div>
-          <h2 className="uppercase text-3xl text-left md:text-9xl font-normal mb-4">
-            Who we are
-          </h2>
-          <p className="text-2xl leading-10 text-left max-w-5xl mb-8">
-            We plan, design, deliver and maintain the transport, energy, water,
-            buildings and wider infrastructure that is integral to people’s
-            daily lives.
-          </p>
+          <AdminInlineText
+            as="h2"
+            value={title}
+            path="data.homepage.introduction.title"
+            commitMessage="Update homepage introduction title"
+            className="uppercase text-3xl text-left md:text-9xl font-normal mb-4"
+          />
+          <AdminInlineText
+            as="p"
+            value={content}
+            path="data.homepage.introduction.content"
+            commitMessage="Update homepage introduction content"
+            className="text-2xl leading-10 text-left max-w-5xl mb-8"
+          />
           <div className="mt-12 text-center md:hidden">
             <Button variant="outline" className="gap-2">
               About Us

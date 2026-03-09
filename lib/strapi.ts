@@ -104,6 +104,8 @@ export interface PageContent {
   heroTitle: string;
   heroSubtitle: string;
   heroImage?: StrapiImage;
+  introductionTitle?: string;
+  introductionContent?: string;
   aboutTitle?: string;
   aboutDescription?: string;
   id?: number;
@@ -285,6 +287,8 @@ export async function getPageContent(): Promise<PageContent | null> {
       heroImage: hero.backgroundImage
         ? { url: hero.backgroundImage, alternativeText: "Hero background" }
         : undefined,
+      introductionTitle: data.data?.homepage?.introduction?.title,
+      introductionContent: data.data?.homepage?.introduction?.content,
     };
   } catch (error) {
     console.error("Error loading page content from JSON:", error);
