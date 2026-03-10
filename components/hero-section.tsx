@@ -5,7 +5,6 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { getStrapiMedia } from "@/lib/strapi";
-import { AdminInlineText } from "@/components/admin-inline-text";
 
 interface HeroSectionProps {
   title: string;
@@ -33,28 +32,24 @@ export function HeroSection({ title, subtitle, imageUrl }: HeroSectionProps) {
       )}
       <div className="container relative flex h-full flex-col items-start justify-center">
         <div className="max-w-3xl space-y-6">
-          <AdminInlineText
-            as="h1"
-            value={title}
-            path="data.homepage.hero.title"
-            commitMessage="Update homepage hero title"
+          <h1
             className={`text-balance text-5xl font-bold leading-tight text-white md:text-6xl lg:text-7xl transition-all duration-700 drop-shadow-lg ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-8"
             }`}
-          />
-          <AdminInlineText
-            as="p"
-            value={subtitle}
-            path="data.homepage.hero.subtitle"
-            commitMessage="Update homepage hero subtitle"
+          >
+            {title}
+          </h1>
+          <p
             className={`text-pretty text-xl text-white md:text-2xl transition-all duration-700 delay-200 drop-shadow-md ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-8"
             }`}
-          />
+          >
+            {subtitle}
+          </p>
           <div
             className={`flex flex-wrap gap-4 transition-all duration-700 delay-400 ${
               isVisible

@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import { ProjectCard } from "./project-card";
 import { Button } from "./ui/button";
 import { ArrowRight } from "lucide-react";
-import { AdminInlineText } from "@/components/admin-inline-text";
 
 interface AboutSectionProps {
   title: string;
@@ -51,20 +50,12 @@ export default function AboutSection({ title, content }: AboutSectionProps) {
           <div className="small-title" data-animate="fade">
             About Us
           </div>
-          <AdminInlineText
-            as="h2"
-            value={title}
-            path="data.homepage.introduction.title"
-            commitMessage="Update homepage introduction title"
-            className="uppercase text-3xl text-left md:text-9xl font-normal mb-4"
-          />
-          <AdminInlineText
-            as="p"
-            value={content}
-            path="data.homepage.introduction.content"
-            commitMessage="Update homepage introduction content"
-            className="text-2xl leading-10 text-left max-w-5xl mb-8"
-          />
+          <h2 className="uppercase text-3xl text-left md:text-9xl font-normal mb-4">
+            {title}
+          </h2>
+          <p className="text-2xl leading-10 text-left max-w-5xl mb-8">
+            {content}
+          </p>
           <div className="mt-12 text-center md:hidden">
             <Button variant="outline" className="gap-2">
               About Us

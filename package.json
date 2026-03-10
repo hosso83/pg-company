@@ -4,16 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "cms": "tsx server.ts",
-    "cms:build": "tsc",
     "build": "next build",
     "start": "next start",
     "lint": "eslint ."
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
-    "@payloadcms/db-mongodb": "^3.79.0",
-    "@payloadcms/richtext-slate": "^3.79.0",
     "@radix-ui/react-accordion": "1.2.2",
     "@radix-ui/react-alert-dialog": "1.1.4",
     "@radix-ui/react-aspect-ratio": "1.1.1",
@@ -47,15 +43,12 @@
     "clsx": "^2.1.1",
     "cmdk": "1.0.4",
     "date-fns": "4.1.0",
-    "dotenv": "^17.3.1",
     "embla-carousel-react": "8.5.1",
-    "express": "^5.2.1",
     "framer-motion": "^12.24.0",
     "input-otp": "1.4.1",
     "lucide-react": "^0.454.0",
     "next": "16.0.10",
     "next-themes": "^0.4.6",
-    "payload": "^3.79.0",
     "qs": "^6.14.1",
     "react": "19.2.0",
     "react-day-picker": "9.8.0",
@@ -77,8 +70,6 @@
     "@types/react-dom": "^19",
     "postcss": "^8.5",
     "tailwindcss": "^4.1.9",
-    "ts-node": "^10.9.2",
-    "tsx": "^4.21.0",
     "tw-animate-css": "1.3.3",
     "typescript": "^5"
   }
