@@ -7,6 +7,7 @@ import { ArrowRight, MapPin, Clock, Briefcase } from "lucide-react";
 import type { Metadata } from "next";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { SectionCTA } from "@/components/section-cta";
+import CvForm from "./cv_form";
 
 export const metadata: Metadata = {
   title: "Careers | Engineering Global",
@@ -236,6 +237,7 @@ export default function CareersPage() {
             </div>
           </div>
         </section>
+        <CvForm />
 
         {/* CTA Section */}
         <SectionCTA
