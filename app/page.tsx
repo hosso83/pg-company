@@ -78,11 +78,11 @@ export default async function HomePage() {
 
         {/* <StatsSection /> */}
 
-        <SectionDivider
+        {/* <SectionDivider
           imageSrc="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&h=1080&fit=crop&q=80"
           imageAlt="Infrastructure overview"
           height="md"
-        />
+        /> */}
 
         {/* About Section */}
         <AboutSection

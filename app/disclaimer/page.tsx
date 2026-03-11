@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
 import { Breadcrumbs } from "@/components/breadcrumbs";
+import { HeroBanner } from "@/components/hero-banner";
 
 export const metadata: Metadata = {
   title: "Disclaimer | Project Globally",
@@ -15,15 +16,14 @@ export default function DisclaimerPage() {
       <Header />
 
       <main className="flex-1">
-        <section className="bg-muted/30 py-12 px-4 md:px-6">
-          <div className="container">
-            <h1 className="text-4xl font-bold text-foreground">Disclaimer</h1>
-            <p className="mt-3 max-w-3xl text-muted-foreground">
-              Please read the following information carefully before using this
-              website.
-            </p>
-          </div>
-        </section>
+        <HeroBanner
+          image="img/privacy.avif"
+          alt="Contact Us"
+          title={"Disclaimer"}
+          description={
+            "Please read the following information carefully before using this website."
+          }
+        />
 
         <Breadcrumbs />
 
