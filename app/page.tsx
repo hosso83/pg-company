@@ -18,6 +18,7 @@ import Link from "next/link";
 import ProjectSection from "@/components/section-project";
 import MarketSection from "@/components/section-markets";
 import AboutSection from "@/components/section-about";
+import { SectionCTA } from "@/components/section-cta";
 
 export const metadata: Metadata = {
   title: "Project Globally | Delivering Excellence in Infrastructure",
@@ -75,15 +76,12 @@ export default async function HomePage() {
             imageUrl={pageContent?.heroImage?.url}
           />
         )}
-
         {/* <StatsSection /> */}
-
         {/* <SectionDivider
           imageSrc="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&h=1080&fit=crop&q=80"
           imageAlt="Infrastructure overview"
           height="md"
         /> */}
-
         {/* About Section */}
         <AboutSection
           title={pageContent?.introductionTitle || "Who we are"}
@@ -92,62 +90,34 @@ export default async function HomePage() {
             "We are a global engineering consultancy dedicated to creating opportunities through the responsible development of sustainable infrastructure. Our multidisciplinary team of experts works across diverse environments and industries, delivering innovative engineering solutions to complex challenges. By combining technical excellence, practical experience, and a forward-thinking approach, we partner with clients to design and deliver projects that strengthen communities, support economic growth, and improve quality of life. Our work is guided by a commitment to long-term sustainability, collaboration, and engineering solutions that make a meaningful and lasting impact."
           }
         />
-
         <SectionDivider
           imageSrc="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=1080&fit=crop&q=80"
           imageAlt="Engineering collaboration"
           height="md"
         />
-
         {/* Projects Section */}
-
         <ProjectSection />
-
         <SectionDivider
           imageSrc="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1920&h=1080&fit=crop&q=80"
           imageAlt="Sustainable infrastructure"
           height="md"
         />
-
         {/* Services Section */}
         <MarketSection />
-
         <SectionDivider
           imageSrc="https://images.unsplash.com/photo-1497366216548-37526070297c?w=1920&h=1080&fit=crop&q=80"
           imageAlt="Professional team"
           height="md"
         />
-
         {/* CTA Section */}
-        <section className="bg-accent py-20 px-4 md:px-6 text-accent-foreground">
-          <div className="container text-center">
-            <h2 className="mb-6 text-4xl font-bold md:text-5xl">
-              Build your career with us
-            </h2>
-            <p className="mx-auto mb-8 max-w-2xl text-lg opacity-90">
-              We are a unique group of experts who work on high-profile projects
-              around the world that address some of the world's most pressing
-              issues.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <Link href="/careers">
-                <Button size="lg" variant="secondary" className="gap-2">
-                  Search our vacancies
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
-              </Link>
-              <Link href="/team">
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="border-accent-foreground text-accent-foreground hover:bg-accent-foreground/10 bg-transparent"
-                >
-                  Meet our people
-                </Button>
-              </Link>
-            </div>
-          </div>
-        </section>
+        <SectionCTA
+          title={" Build your career with us"}
+          subtitle={
+            "We are a unique group of experts who work on high-profile projects around the world that address some of the world's most pressing issues."
+          }
+          primaryBtn={{ Text: "Search our vacancies", URL: "/careers" }}
+          secondaryBtn={{ Text: "Meet our people", URL: "/about#team" }}
+        />{" "}
       </main>
 
       <Footer />

@@ -144,7 +144,7 @@ export default async function ContactPage() {
                             United Kingdom
                           </p>
                         </div>
-                        <span className="inline-flex items-center gap-1 rounded-full bg-secondary/10 px-2 py-1 text-xs font-medium text-secondary">
+                        <span className="inline-flex items-center gap-1 rounded-full bg-accent/10 px-2 py-1 text-xs font-medium text-accent">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"

@@ -62,7 +62,7 @@ export function SectionCTA({
           >
             {primaryBtn && (
               <Link href={primaryBtn.URL}>
-                <Button size="lg" variant="outline">
+                <Button size="lg" variant="default">
                   {primaryBtn.Text}
                 </Button>
               </Link>
@@ -70,7 +70,7 @@ export function SectionCTA({
 
             {secondaryBtn && (
               <Link href={secondaryBtn.URL}>
-                <Button size="lg" variant="ghost">
+                <Button size="lg" variant="outline">
                   {secondaryBtn.Text}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>

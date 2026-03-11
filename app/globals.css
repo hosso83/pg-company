@@ -13,11 +13,12 @@
   --popover-foreground: oklch(0 0 0);
   --primary: oklch(0 0 0); /* Black as primary */
   --primary-foreground: oklch(1 0 0); /* White text on black */
-  --secondary: oklch(0.5915 0.2366 289.67); /* White as secondary */
+  --secondary: oklch(0.7287 0.1241 194.77); /* White as secondary */
+  /* --secondary: oklch(0.5915 0.2366 289.67); White as secondary */
   --secondary-foreground: oklch(1 0 0); /* Black text on white */
   --muted: oklch(0.95 0 0);
   --muted-foreground: oklch(0.15 0 0);
-  --accent: oklch(0.7287 0.1241 194.77); /* Purple accent color */
+  --accent: oklch(0.7641 0.1685 94.45); /* Purple accent color */
   --accent-foreground: oklch(0 0 0);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.99 0 0);
@@ -364,7 +365,7 @@
 }
 .cta {
   padding: 6rem;
-  background-color: var(--color-accent);
+  background-color: var(--color-secondary);
   color: var(--color-accent-foreground);
   text-align: center;
   transition: background-color 0.3s ease-in-out;
