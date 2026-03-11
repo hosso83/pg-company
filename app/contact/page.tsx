@@ -186,7 +186,8 @@ export default async function ContactPage() {
                             <circle cx="12" cy="10" r="3"></circle>
                           </svg>
                           <span className="text-muted-foreground">
-                            125 Old Broad Street, London EC2N 1AR
+                            2 Martin House, 179-181 North End road, London W14
+                            9NL, United Kingdom
                           </span>
                         </div>
                         <div className="flex items-center gap-3">
@@ -208,7 +209,7 @@ export default async function ContactPage() {
                             href="tel:+442071234567"
                             className="text-muted-foreground transition-colors hover:text-secondary"
                           >
-                            +44 20 7123 4567
+                            +44-776-939-8914
                           </a>
                         </div>
                         <div className="flex items-center gap-3">
@@ -234,10 +235,10 @@ export default async function ContactPage() {
                             <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
                           </svg>
                           <a
-                            href="mailto:london@projectglobally.com"
+                            href="mailto:contact@projectglobally.com"
                             className="text-muted-foreground transition-colors hover:text-secondary"
                           >
-                            london@projectglobally.com
+                            contact@projectglobally.com
                           </a>
                         </div>
                       </div>
