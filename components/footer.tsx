@@ -27,6 +27,7 @@ const footer_nav = [
       { label: "Insights", href: "/insights" },
       { label: "Case studies", href: "/case-studies" },
       { label: "News", href: "/news" },
+      { label: "Disclaimer", href: "/disclaimer" },
     ],
   },
   {
