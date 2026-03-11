@@ -89,12 +89,12 @@ export default async function HomePage() {
           title={pageContent?.introductionTitle || "Who we are"}
           content={
             pageContent?.introductionContent ||
-            "We plan, design, deliver and maintain the transport, energy, water, buildings and wider infrastructure that is integral to people’s daily lives."
+            "We are a global engineering consultancy dedicated to creating opportunities through the responsible development of sustainable infrastructure. Our multidisciplinary team of experts works across diverse environments and industries, delivering innovative engineering solutions to complex challenges. By combining technical excellence, practical experience, and a forward-thinking approach, we partner with clients to design and deliver projects that strengthen communities, support economic growth, and improve quality of life. Our work is guided by a commitment to long-term sustainability, collaboration, and engineering solutions that make a meaningful and lasting impact."
           }
         />
 
         <SectionDivider
-          imageSrc="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1920&h=1080&fit=crop&q=80"
+          imageSrc="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1920&h=1080&fit=crop&q=80"
           imageAlt="Engineering collaboration"
           height="md"
         />
