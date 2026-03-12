@@ -14,8 +14,11 @@ interface ProjectPageProps {
 export default async function ProjectPage({ params }: ProjectPageProps) {
   const { slug } = await params;
 
-  if (slug === "maikhan-pumped-storage-hydro" || slug === "maikhan") {
-    redirect("/maikhan");
+  if (slug === "maikhan-pumped-storage-hydro" || slug === "projects/maikhan") {
+    redirect("/projects/maikhan");
+  }
+  if (slug === "erdene-power-project" || slug === "projects/erdene") {
+    redirect("/projects/erdene");
   }
 
   if (slug === "advance-credit-infrastructure-program") {
@@ -27,7 +30,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
   try {
     project = await getProjectBySlug(slug);
   } catch (error) {
-    console.error("[v0] Error fetching project from Strapi:", error);
+    console.error("Error fetching project from Strapi:", error);
   }
 
   if (!project) {

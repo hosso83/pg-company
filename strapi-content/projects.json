@@ -2,7 +2,7 @@
   "data": [
     {
       "title": "Maikhan 75MW Pumped Storage Hydro Power Station",
-      "slug": "maikhan-pumped-storage-hydro",
+      "slug": "maikhan-power-storage",
       "description": "Large-scale renewable energy project featuring a 75MW pumped storage hydroelectric facility serving Mongolia's growing energy needs.",
       "content": "Project Maikhan is a phased green energy and digital infrastructure program near Ulaanbaatar. Phase 1 delivers a fully permitted pumped storage hydropower (PSH) asset at 75MW (3 x 25MW), with a defined pathway to 100MW through design and procurement optimization. The project includes a 220kV grid connection and approved commercial framework (tariff and PPA), enabling dispatchable low-carbon power for grid balancing. Future phases integrate wind, solar and BESS, then expand PSH capacity to support long-term industrial demand and a green data center roadmap.",
       "location": "Ulaanbaatar, Mongolia",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Uvur Lithium and Rubidium Project",
-      "slug": "uvur-lithium-rubidium-project",
+      "slug": "uvur-lithium-project",
       "description": "Critical minerals project in Tuv province targeting lithium and rubidium production with advanced geological and metallurgical programs.",
       "content": "The Uvur Project is located in Tuv province, approximately 75 km east of Ulaanbaatar and around 28 km from Erdene soum. The current program includes detailed geological mapping, geophysical campaigns, trenching, and 10,000 linear meters of drilling. Resource work has been prepared with JORC-aligned methodology and independent technical support. Metallurgical testwork indicates strong recoveries in conceptual process routes for lithium and rubidium-bearing ore. The development path covers conversion from exploration to mining license, feasibility and mine planning, environmental approvals, and staged plant construction toward production.",
       "location": "Tuv Province, Mongolia",
@@ -68,12 +68,12 @@
       "status": "In Development",
       "featured": true,
       "image": {
-        "url": "img/lithium.webp",
+        "url": "/img/lithium.webp",
         "alternativeText": "Uvur lithium and rubidium exploration and development"
       },
       "gallery": [
         {
-          "url": "img/lithium.webp",
+          "url": "/img/lithium.webp",
           "alternativeText": "Open-pit mining operations"
         },
         {
@@ -146,9 +146,9 @@
     },
     {
       "title": "Advance Credit Diaspora Fintech Platform",
-      "slug": "advance-credit-diaspora-fintech-platform",
-      "description": "AU-MN cross-border fintech platform starting with live remittances and scaling into apartment leasing and regulated deposit products.",
-      "content": "Advance Credit is an execution-ready diaspora fintech initiative serving the Australia-to-Mongolia corridor. The platform is already live with app distribution on both major stores, AUSTRAC registration, and an initial set of completed transactions validating compliance and settlement flow. Product strategy is phased: (1) low-friction remittance acquisition, (2) asset-backed apartment leasing for diaspora customers using Mongolia underwriting capability, and (3) deposit and wallet products after license progression. The model is reinforced by a profitable legacy Mongolian NBFI operating since 2015, providing credit operations, risk history, and governance depth that materially reduce typical early-stage fintech execution risk.",
+      "slug": "advance-credit-platform",
+      "description": "Execution-ready AU-MN diaspora fintech platform with live remittance rails, verified compliance, and a phased expansion into leasing and deposit products.",
+      "content": "Advance Credit is a Mongolia-Australia fintech platform purpose-built for an underserved diaspora corridor where transfer costs, FX opacity, and compliance friction remain high. The product is already live on both major app stores, with AUSTRAC registration in place and early post-launch transactions completed to validate end-to-end payment flow. The strategic model is phased and capital-efficient: remittance drives customer acquisition and trust; asset-backed apartment leasing monetizes with stronger unit economics through an existing Mongolian underwriting engine; and deposit-wallet products are introduced after licensing progression to lower cost of funds and improve lending scalability. Governance and execution risk are reduced by an established NBFI foundation (operational since 2015), active board oversight, and audited credit operations that provide real balance-sheet support versus typical pre-revenue fintech startups. The current fundraise structure combines growth equity and a senior secured warehouse line to scale originations while limiting unnecessary dilution.",
       "location": "Australia-Mongolia Corridor (Sydney and Ulaanbaatar)",
       "sector": "Fintech",
       "region": "Asia",
@@ -157,7 +157,10 @@
         "AML and Compliance Operations",
         "Diaspora Credit and Leasing",
         "Fintech Product Engineering",
-        "Capital Structuring"
+        "Capital Structuring",
+        "Treasury and FX Execution",
+        "Risk and Portfolio Analytics",
+        "Regulatory Readiness and Licensing Support"
       ],
       "client": "Advance Credit NBFI Group",
       "value": "USD 10M program target (USD 2M equity + USD 8M secured facility)",
@@ -183,19 +186,26 @@
         "AUSTRAC registration completed and AML monitoring workflow active",
         "Initial live transaction set validates cross-border settlement model",
         "Phased expansion plan aligns user acquisition, credit growth, and funding efficiency",
-        "Legacy NBFI balance-sheet strength supports scalable underwriting"
+        "Legacy NBFI balance-sheet strength supports scalable underwriting",
+        "Compliance tooling and daily monitoring process established with no material findings",
+        "Board-led governance model implemented with independent director participation",
+        "Fundraise framework prepared: USD 2M equity plus USD 8M senior secured facility"
       ],
       "challenges": [
         "Refining TAM narrative for corridor-by-corridor expansion",
         "Clarifying equity term language for institutional due diligence",
         "Securing and deploying the USD 8M senior facility at target terms",
         "Managing FX and pricing pressure against larger remittance incumbents",
-        "Coordinating multi-jurisdiction compliance while scaling transaction volume"
+        "Coordinating multi-jurisdiction compliance while scaling transaction volume",
+        "Maintaining strong KYC quality while reducing onboarding friction",
+        "Balancing growth pace with credit quality during leasing ramp-up"
       ],
       "marketSignals": [
         "Australia overseas-born share: 31.5% (ABS 2024)",
         "Global remittance cost benchmark near 6.5%",
-        "Mongolian diaspora corridor remains underserved by major providers"
+        "Mongolian diaspora corridor remains underserved by major providers",
+        "Australia-to-Mongolia corridor exhibits niche demand with limited tailored competition",
+        "Diaspora customers value local-language support, speed, and transparent FX pricing"
       ],
       "sourceFile": "public/files/Advance Credit pitch deck.pdf",
       "publishedAt": "2026-03-12T00:00:00.000Z"
