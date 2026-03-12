@@ -81,7 +81,7 @@ export default function AdvanceCreditIntro() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-teal-950 text-white font-sans">
+    <div className="min-h-screen bg-zinc-950 text-white font-sans">
       {/* NAVBAR */}
       <Header />
 
@@ -225,12 +225,14 @@ export default function AdvanceCreditIntro() {
                 desc: "ASIC + AUSTRAC registered remittance provider in Australia. Headquartered in Mongolia.",
               },
             ].map((item) => (
-              <Card key={item.num} className="bg-teal-950 border-orange-500/20">
+              <Card key={item.num} className="bg-teal-950 border-0 shadow-lg">
                 <CardHeader>
                   <div className="text-5xl font-black text-orange-500 mb-2">
                     {item.num}
                   </div>
-                  <CardTitle>{item.title}</CardTitle>
+                  <CardTitle className="text-orange-500">
+                    {item.title}
+                  </CardTitle>
                 </CardHeader>
                 <CardContent className="text-teal-300">{item.desc}</CardContent>
               </Card>
@@ -346,7 +348,7 @@ export default function AdvanceCreditIntro() {
               </div>
               <div className="flex gap-4">
                 <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/2560px-Download_on_the_App_Store_Badge.svg.png"
+                  src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg"
                   alt="App Store"
                   className="h-10"
                 />
@@ -567,24 +569,28 @@ export default function AdvanceCreditIntro() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              <Card className="bg-teal-950 border-orange-500/30">
-                <CardHeader className="bg-orange-500/10 py-6">
-                  <CardTitle>Equity</CardTitle>
+              <Card className="bg-zinc-950 border-0">
+                <CardHeader>
+                  <CardTitle className="md:text-4xl text-white uppercase">
+                    Equity
+                  </CardTitle>
                 </CardHeader>
-                <CardContent className="pt-8">
-                  <p className="text-lg">
+                <CardContent>
+                  <p className="text-lg text-teal-400">
                     Max 20% common equity stake for a total investment of{" "}
                     <span className="font-bold">$500,000 USD</span>
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="bg-teal-950 border-orange-500/30">
-                <CardHeader className="bg-orange-500/10 py-6">
-                  <CardTitle>Credit Facility</CardTitle>
+              <Card className="bg-zinc-950 border-0">
+                <CardHeader>
+                  <CardTitle className="md:text-4xl text-white uppercase">
+                    Credit Facility
+                  </CardTitle>
                 </CardHeader>
-                <CardContent className="pt-8">
-                  <p className="text-lg">
+                <CardContent>
+                  <p className="text-lg text-teal-400">
                     US$8M senior secured, committed facility (SPV/warehouse) to
                     scale the diaspora leasing book.
                   </p>

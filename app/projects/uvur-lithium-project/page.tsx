@@ -194,8 +194,8 @@ export default function UvurLithiumIntro() {
             <div className="inline px-6 py-2 bg-white/5 rounded-full text-sm mb-6">
               PRELIMINARY RESOURCE ESTIMATION
             </div>
-            <h2 className="text-6xl font-semibold tracking-tighter">
-              Ore Body 9 (20% of exploration area)
+            <h2 className="text-6xl py-6 font-semibold tracking-tighter">
+              Ore Body 9 <p>(20% of exploration area)</p>
             </h2>
           </div>
 
@@ -304,16 +304,16 @@ export default function UvurLithiumIntro() {
             <div className="grid md:grid-cols-2 gap-8">
               <Card className="bg-zinc-900 border-white/10">
                 <CardHeader>
-                  <CardTitle>Lithium Minerals</CardTitle>
+                  <CardTitle className="text-white">Lithium Minerals</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="border-b">
-                        <th className="text-left py-3">Mineral</th>
-                        <th className="text-left py-3">Density</th>
-                        <th className="text-left py-3">Formula</th>
-                        <th className="text-right py-3">Li (%)</th>
+                        <th className="text-left text-white py-3">Mineral</th>
+                        <th className="text-left text-white py-3">Density</th>
+                        <th className="text-left text-white py-3">Formula</th>
+                        <th className="text-right text-white py-3">Li (%)</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y text-zinc-300">
@@ -336,16 +336,16 @@ export default function UvurLithiumIntro() {
 
               <Card className="bg-zinc-900 border-white/10">
                 <CardHeader>
-                  <CardTitle>Rubidium Mineral</CardTitle>
+                  <CardTitle className="text-white">Rubidium Mineral</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <table className="w-full text-sm">
                     <thead>
                       <tr className="border-b">
-                        <th className="text-left py-3">Mineral</th>
-                        <th className="text-left py-3">Density</th>
-                        <th className="text-left py-3">Formula</th>
-                        <th className="text-right py-3">Rb (%)</th>
+                        <th className="text-left text-white py-3">Mineral</th>
+                        <th className="text-left text-white py-3">Density</th>
+                        <th className="text-left text-white py-3">Formula</th>
+                        <th className="text-right text-white py-3">Rb (%)</th>
                       </tr>
                     </thead>
                     <tbody className="divide-y text-zinc-300">

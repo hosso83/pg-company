@@ -81,7 +81,7 @@ export default function ProjectMaikhan() {
     <>
       <Header />
 
-      <div className="min-h-screen bg-teal-950 text-white font-sans">
+      <div className="min-h-screen bg-neutral-950 text-white font-sans">
         {/* HERO */}
         <section
           ref={heroRef}
@@ -97,7 +97,7 @@ export default function ProjectMaikhan() {
           <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/70 to-black"></div>
 
           <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
-            <div className="inline-flex items-center gap-3 px-6 py-2 rounded-full border border-emerald-500/30 bg-emerald-950/50 text-emerald-400 text-sm font-medium mb-8">
+            <div className="inline-flex items-center gap-3 px-6 py-2 rounded-full border border-teal-500/30 bg-teal-950/50 text-teal-400 text-sm font-medium mb-8">
               75 MW → 100 MW UPGRADE • 37 KM FROM ULAANBAATAR
             </div>
             <h1 className="text-7xl md:text-8xl font-bold tracking-tighter leading-none mb-6">
@@ -105,7 +105,7 @@ export default function ProjectMaikhan() {
               <br />
               MAIKHAN
             </h1>
-            <p className="text-3xl text-emerald-100 mb-4">
+            <p className="text-3xl text-teal-100 mb-4">
               75–100 MW Pumped Storage Hydropower
             </p>
             <p className="text-2xl text-teal-300 max-w-2xl mx-auto">
@@ -114,7 +114,7 @@ export default function ProjectMaikhan() {
             <div className="mt-12 flex flex-col sm:flex-row gap-4 justify-center">
               <Button
                 size="lg"
-                className="bg-emerald-600 hover:bg-emerald-500 text-lg px-10 py-7 rounded-full"
+                className="bg-teal-600 hover:bg-teal-500 text-lg px-10 py-7 rounded-full"
                 asChild
               >
                 <a href="#financials">View $111.2M Opportunity</a>
@@ -145,7 +145,7 @@ export default function ProjectMaikhan() {
         >
           <div className="mx-auto max-w-7xl px-6">
             <div className="max-w-3xl mx-auto text-center mb-16">
-              <div className="inline text-emerald-500 text-sm tracking-widest mb-4">
+              <div className="inline text-teal-500 text-sm tracking-widest mb-4">
                 EXECUTIVE SUMMARY
               </div>
               <h2 className="text-6xl font-semibold tracking-tight">
@@ -162,8 +162,8 @@ export default function ProjectMaikhan() {
             </div>
 
             <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-              <Card className="bg-teal-900 border-emerald-500/20 p-10">
-                <CardTitle className="text-emerald-400 mb-6">Seeking</CardTitle>
+              <Card className="bg-teal-900 border-teal-500/20 p-10">
+                <CardTitle className="text-teal-400 mb-6">Seeking</CardTitle>
                 <div className="text-7xl font-bold">$111.2M</div>
                 <p className="text-teal-400 mt-3">
                   Phase 1 Core PSH Infrastructure
@@ -173,25 +173,25 @@ export default function ProjectMaikhan() {
                 </p>
               </Card>
 
-              <Card className="bg-teal-900 border-emerald-500/20 p-10">
-                <CardTitle className="text-emerald-400 mb-6">
+              <Card className="bg-teal-900 border-teal-500/20 p-10">
+                <CardTitle className="text-teal-400 mb-6">
                   Sponsor Case Returns
                 </CardTitle>
                 <div className="space-y-6">
                   <div>
-                    <span className="text-5xl font-bold text-emerald-400">
+                    <span className="text-5xl font-bold text-teal-400">
                       10.84%
                     </span>
                     <span className="text-teal-400 ml-3">IRR (WACC)</span>
                   </div>
                   <div>
-                    <span className="text-5xl font-bold text-emerald-400">
+                    <span className="text-5xl font-bold text-teal-400">
                       $55.6M
                     </span>
                     <span className="text-teal-400 ml-3">NPV</span>
                   </div>
                   <div>
-                    <span className="text-5xl font-bold text-emerald-400">
+                    <span className="text-5xl font-bold text-teal-400">
                       8.2 years
                     </span>
                     <span className="text-teal-400 ml-3">
@@ -211,7 +211,7 @@ export default function ProjectMaikhan() {
               <h2 className="text-5xl font-semibold tracking-tight">
                 Phase 1 • Core PSH Infrastructure
               </h2>
-              <p className="text-emerald-400 mt-4">
+              <p className="text-teal-400 mt-4">
                 75 MW (3 × 25 MW) — Fully Permitted &amp; Shovel-Ready
               </p>
             </div>
@@ -231,9 +231,9 @@ export default function ProjectMaikhan() {
               ].map((item, i) => (
                 <Card
                   key={i}
-                  className="bg-teal-950 border-emerald-500/20 p-8 text-center"
+                  className="bg-teal-950 border-teal-500/20 p-8 text-center"
                 >
-                  <CardTitle className="text-emerald-400 mb-4">
+                  <CardTitle className="text-teal-400 mb-4">
                     {item.title}
                   </CardTitle>
                   <p className="text-2xl text-teal-400 leading-tight">
@@ -244,8 +244,8 @@ export default function ProjectMaikhan() {
             </div>
 
             {/* 100 MW UPGRADE */}
-            <div className="mt-20 max-w-4xl mx-auto bg-teal-950 border border-emerald-500/30 rounded-3xl p-12">
-              <div className="inline-flex px-5 py-1 rounded-full bg-emerald-900/50 text-emerald-400 text-sm mb-6">
+            <div className="mt-20 max-w-4xl mx-auto bg-teal-950 border border-teal-500/30 rounded-3xl p-12">
+              <div className="inline-flex px-5 py-1 rounded-full bg-teal-900/50 text-teal-400 text-sm mb-6">
                 100 MW UPGRADE PATHWAY INCLUDED
               </div>
               <h3 className="text-3xl font-semibold mb-6">
@@ -288,7 +288,7 @@ export default function ProjectMaikhan() {
               ].map((item, i) => (
                 <div key={i} className="flex gap-12 items-start">
                   <div className="w-28 shrink-0 pt-1">
-                    <div className="text-emerald-500 font-mono text-2xl font-bold tracking-tighter">
+                    <div className="text-teal-500 font-mono text-2xl font-bold tracking-tighter">
                       {item.phase}
                     </div>
                   </div>
@@ -317,9 +317,9 @@ export default function ProjectMaikhan() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-8 mb-20">
-              <Card className="bg-black border-emerald-500/30 py-10 text-center">
+              <Card className="bg-black border-teal-500/30 py-10 text-center">
                 <CardHeader>
-                  <CardTitle className="text-7xl font-bold text-emerald-400">
+                  <CardTitle className="text-7xl font-bold text-teal-400">
                     <span
                       ref={(el) => {
                         statsRefs.current[0] = el;
@@ -331,9 +331,9 @@ export default function ProjectMaikhan() {
                   <p className="text-xl text-white">IRR (WACC)</p>
                 </CardHeader>
               </Card>
-              <Card className="bg-black border-emerald-500/30 py-10 text-center">
+              <Card className="bg-black border-teal-500/30 py-10 text-center">
                 <CardHeader>
-                  <CardTitle className="text-7xl font-bold text-emerald-400">
+                  <CardTitle className="text-7xl font-bold text-teal-400">
                     <span
                       ref={(el) => {
                         statsRefs.current[1] = el;
@@ -345,9 +345,9 @@ export default function ProjectMaikhan() {
                   <p className="text-xl text-white">NPV</p>
                 </CardHeader>
               </Card>
-              <Card className="bg-black border-emerald-500/30 py-10 text-center">
+              <Card className="bg-black border-teal-500/30 py-10 text-center">
                 <CardHeader>
-                  <CardTitle className="text-7xl font-bold text-emerald-400">
+                  <CardTitle className="text-7xl font-bold text-teal-400">
                     <span
                       ref={(el) => {
                         statsRefs.current[2] = el;
@@ -363,8 +363,8 @@ export default function ProjectMaikhan() {
 
             {/* Sources & Uses Table */}
             <div className="max-w-4xl mx-auto bg-teal-950 border border-white/10 rounded-3xl overflow-hidden">
-              <div className="bg-emerald-950 px-10 py-6">
-                <p className="uppercase text-xs tracking-widest text-emerald-400">
+              <div className="bg-teal-950 px-10 py-6">
+                <p className="uppercase text-xs tracking-widest text-teal-400">
                   Sources &amp; Uses of Funds — Phase 1
                 </p>
               </div>
@@ -384,7 +384,7 @@ export default function ProjectMaikhan() {
                     className="flex justify-between px-10 py-6 text-lg"
                   >
                     <span>{desc}</span>
-                    <span className="font-mono text-emerald-400">${cost}M</span>
+                    <span className="font-mono text-teal-400">${cost}M</span>
                   </div>
                 ))}
               </div>
@@ -406,7 +406,7 @@ export default function ProjectMaikhan() {
               </p>
               <div className="grid md:grid-cols-2 gap-10">
                 <div>
-                  <p className="font-semibold text-emerald-400 mb-4">
+                  <p className="font-semibold text-teal-400 mb-4">
                     Immediate Next Steps
                   </p>
                   <ul className="space-y-3 text-sm">
@@ -416,7 +416,7 @@ export default function ProjectMaikhan() {
                   </ul>
                 </div>
                 <div>
-                  <p className="font-semibold text-emerald-400 mb-4">
+                  <p className="font-semibold text-teal-400 mb-4">
                     Indicative Long-Lead Windows
                   </p>
                   <ul className="space-y-3 text-sm">
@@ -435,7 +435,7 @@ export default function ProjectMaikhan() {
         {/* CTA */}
         <section className="py-32 border-t border-white/10 bg-black">
           <div className="text-center">
-            <p className="text-emerald-400 tracking-widest text-sm mb-4">
+            <p className="text-teal-400 tracking-widest text-sm mb-4">
               SHOVEL-READY • FULLY PERMITTED • 100 MW UPGRADE INCLUDED
             </p>
             <h2 className="text-6xl font-bold tracking-tighter mb-10">
@@ -443,7 +443,7 @@ export default function ProjectMaikhan() {
             </h2>
             <Button
               size="lg"
-              className="bg-emerald-600 hover:bg-emerald-500 text-xl px-16 py-8 rounded-full"
+              className="bg-teal-600 hover:bg-teal-500 text-xl px-16 py-8 rounded-full"
               asChild
             >
               <a href="mailto:admin@monworldgroup.com">

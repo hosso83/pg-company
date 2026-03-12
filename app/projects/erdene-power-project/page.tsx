@@ -123,7 +123,7 @@ export default function ErdenesPowerIntro() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
-              className="bg-white text-black hover:bg-white/90 text-lg px-10 py-7 rounded-full"
+              className="bg-teal-400 text-black hover:bg-white/90 text-lg px-10 py-7 rounded-full"
               asChild
             >
               <a href="#financials">View Financials</a>
@@ -131,7 +131,7 @@ export default function ErdenesPowerIntro() {
             <Button
               size="lg"
               variant="outline"
-              className="border-white/60 text-lg px-10 py-7 rounded-full hover:bg-white/10"
+              className="border-white text-white text-lg px-10 py-7 rounded-full hover:bg-white/60"
               asChild
             >
               <a href="#location">Explore Location</a>
@@ -341,9 +341,9 @@ export default function ErdenesPowerIntro() {
                   { label: "Turbines", value: "3 × 15 MW Francis reversible" },
                 ].map((item, idx) => (
                   <Card key={idx} className="border-white/10 bg-zinc-950">
-                    <CardContent className="pt-6">
+                    <CardContent className="py-3">
                       <p className="text-teal-400 text-sm">{item.label}</p>
-                      <p className="text-4xl font-semibold mt-1 tracking-tight">
+                      <p className="text-4xl text-zinc-400 font-semibold mt-1 tracking-tight">
                         {item.value}
                       </p>
                     </CardContent>
