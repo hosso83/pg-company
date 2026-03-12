@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import {
@@ -14,6 +14,15 @@ import { Menu } from "lucide-react";
 
 export function MobileNav() {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return <div className="md:hidden size-9" aria-hidden="true" />;
+  }
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -44,7 +53,7 @@ export function MobileNav() {
             Projects
           </Link>
           <Link
-            href="/services"
+            href="/markets_services"
             className="nav_mobile_link"
             onClick={() => setOpen(false)}
           >

@@ -307,6 +307,13 @@ export async function getContactPage(): Promise<ContactPage | null> {
 }
 
 export function getStrapiMedia(url: string): string {
-  // Return URL as-is since we're using local JSON files
-  return url;
+  if (!url) return "";
+
+  // Keep absolute URLs untouched
+  if (/^https?:\/\//i.test(url)) {
+    return url;
+  }
+
+  // Normalize local public assets to root-relative URLs
+  return url.startsWith("/") ? url : `/${url}`;
 }

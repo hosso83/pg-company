@@ -60,89 +60,7 @@ export default function ProjectsPage() {
     fetchData();
   }, [currentPage, currentRegion]);
 
-  // Fallback projects when Strapi fails or returns nothing
-  const fallbackProjects = [
-    {
-      title: "Los Angeles Regional Connector",
-      description:
-        "We helped to deliver the Los Angeles Regional Connector, encouraging Angelenos towards public transport with modern, efficient rail infrastructure.",
-      location: "Los Angeles, USA",
-      region: "North America",
-      slug: "la-regional-connector",
-    },
-    {
-      title: "Kitakyushu Hibikinada Offshore Wind",
-      description:
-        "The largest privately financed offshore wind energy project in Japan provides a model for others to follow as the country strives towards net zero.",
-      location: "Kitakyushu, Japan",
-      region: "Asia",
-      slug: "kitakyushu-offshore-wind",
-    },
-    {
-      title: "Ontario Line, Toronto",
-      description:
-        "Toronto's largest and most complex transport project to date, the Ontario Line is being delivered to transform urban mobility.",
-      location: "Toronto, Canada",
-      region: "North America",
-      slug: "ontario-line-toronto",
-    },
-    {
-      title: "Liverpool Baltic Station",
-      description:
-        "Transforming Liverpool's Baltic Triangle district with a new station to maximize connectivity and regenerate the area.",
-      location: "Liverpool, UK",
-      region: "UK",
-      slug: "liverpool-baltic-station",
-    },
-    {
-      title: "Philadelphia Stormwater Management",
-      description:
-        "A comprehensive project to double sewer capacity and reduce stormwater flooding during large storm events.",
-      location: "Philadelphia, USA",
-      region: "North America",
-      slug: "philadelphia-stormwater",
-    },
-    {
-      title: "UK Net Zero Grid Development",
-      description:
-        "Supporting the UK government's ambitious programme of wind farm construction and new transmission infrastructure for a greener, more resilient energy system.",
-      location: "United Kingdom",
-      region: "UK",
-      slug: "uk-net-zero-grid",
-    },
-    {
-      title: "Nepal Climate Resilience Programme",
-      description:
-        "A UK aid funded programme helping communities adapt to climate change with technical support and financial aid for resilience projects.",
-      location: "Nepal",
-      region: "Asia",
-      slug: "nepal-climate-programme",
-    },
-    {
-      title: "HS2 Digital Innovation",
-      description:
-        "Enhancing the observational method on HS2 with DAARWIN, new software that employs machine learning for dramatic time and safety benefits.",
-      location: "United Kingdom",
-      region: "UK",
-      slug: "hs2-digital-innovation",
-    },
-    {
-      title: "Floating Wetlands Water Treatment",
-      description:
-        "Engineering natural processes with 31 new floating wetlands providing biological water treatment to bring an abandoned resource back into use.",
-      location: "United Kingdom",
-      region: "UK",
-      slug: "floating-wetlands-treatment",
-    },
-  ];
-
-  const displayProjects =
-    projects.length > 0
-      ? projects
-      : fallbackProjects.map((p, i) => ({
-          id: i,
-          attributes: { ...p, image: { data: null } },
-        }));
+  const displayProjects = projects;
 
   const handleRegionChange = (region: string) => {
     const params = new URLSearchParams();
@@ -209,14 +127,33 @@ export default function ProjectsPage() {
                   </p>
                 </div>
 
-                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                  {displayProjects.map((project) => (
-                    <ProjectCard
-                      key={project.attributes?.slug || project.slug}
-                      project={project}
-                    />
-                  ))}
-                </div>
+                {displayProjects.length === 0 ? (
+                  <div className="rounded-lg border border-border bg-muted/30 p-8 text-center">
+                    <p className="text-muted-foreground">
+                      No projects found for the current filter/page.
+                    </p>
+                    <Button
+                      className="mt-4"
+                      onClick={() => {
+                        const params = new URLSearchParams(searchParams);
+                        params.delete("region");
+                        params.set("page", "1");
+                        router.push(`?${params.toString()}`);
+                      }}
+                    >
+                      Reset filters
+                    </Button>
+                  </div>
+                ) : (
+                  <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                    {displayProjects.map((project) => (
+                      <ProjectCard
+                        key={project.attributes?.slug || project.slug}
+                        project={project}
+                      />
+                    ))}
+                  </div>
+                )}
 
                 {pagination && pagination.pageCount > 1 && (
                   <nav

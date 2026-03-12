@@ -4,7 +4,7 @@
       "title": "Maikhan 75MW Pumped Storage Hydro Power Station",
       "slug": "maikhan-pumped-storage-hydro",
       "description": "Large-scale renewable energy project featuring a 75MW pumped storage hydroelectric facility serving Mongolia's growing energy needs.",
-      "content": "The Maikhan 75MW Pumped Storage Hydro Power Station is a strategic renewable energy infrastructure project located in Ulaanbaatar, Mongolia. Our engineering team provided comprehensive services including hydrological assessment, civil design, structural engineering, and environmental impact studies. The pumped storage facility stores energy during off-peak hours and generates electricity during peak demand, providing grid stability and supporting Mongolia's transition to clean energy. The project features advanced turbine technology and modern control systems for efficient operation.",
+      "content": "Project Maikhan is a phased green energy and digital infrastructure program near Ulaanbaatar. Phase 1 delivers a fully permitted pumped storage hydropower (PSH) asset at 75MW (3 x 25MW), with a defined pathway to 100MW through design and procurement optimization. The project includes a 220kV grid connection and approved commercial framework (tariff and PPA), enabling dispatchable low-carbon power for grid balancing. Future phases integrate wind, solar and BESS, then expand PSH capacity to support long-term industrial demand and a green data center roadmap.",
       "location": "Ulaanbaatar, Mongolia",
       "sector": "Energy",
       "region": "Asia",
@@ -14,9 +14,9 @@
         "Structural Design",
         "Environmental Engineering"
       ],
-      "client": "Mongolia Energy Development Authority",
-      "value": "USD 250 million",
-      "duration": "2021-2025",
+      "client": "Sunhydro LLC (Project Developer), represented by Monworld Ltd",
+      "value": "USD 111.2 million (Phase 1 core infrastructure)",
+      "duration": "2026-2032 (multi-phase program)",
       "status": "In Progress",
       "featured": true,
       "image": {
@@ -25,27 +25,180 @@
       },
       "gallery": [
         {
-          "url": "https://images.unsplash.com/photo-1513066474822-30e2d7346fac?w=900&h=600&fit=crop&q=80",
-          "alternativeText": "Hydroelectric turbine installation"
+          "url": "https://images.unsplash.com/photo-1564624928784-edd4b71dc64f?w=1400&h=900&fit=crop&q=80",
+          "alternativeText": "Hydroelectric infrastructure"
         },
         {
-          "url": "https://images.unsplash.com/photo-1564624928784-edd4b71dc64f?w=900&h=600&fit=crop&q=80",
-          "alternativeText": "Hydro power station facilities"
+          "url": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=1400&h=900&fit=crop&q=80",
+          "alternativeText": "Power grid integration facilities"
         }
       ],
       "outcomes": [
-        "75MW of renewable energy capacity",
-        "Energy storage capability for grid stability",
-        "Supporting Mongolia's clean energy goals",
-        "Creating 300+ jobs during construction"
+        "75MW dispatchable PSH capacity ready for phased expansion",
+        "Approved permitting package and grid connection framework",
+        "Improved peak balancing and ancillary service capability",
+        "Foundation for hybrid renewables and green digital infrastructure"
       ],
       "challenges": [
-        "High altitude mountain environment",
-        "Extreme weather conditions",
-        "Complex geological surveying",
-        "Optimizing water resource management"
+        "Reservoir and hydraulic optimization across phased scale-up",
+        "Detailed design integration with 220kV transmission delivery",
+        "Complex EPC packaging and financing close requirements",
+        "Maintaining construction schedule under regional climate conditions"
       ],
+      "sourceFile": "public/files/PSH 75MW-100MW, Phase1-4, Project Maikhan Brief Intro.docx",
       "publishedAt": "2023-06-18T00:00:00.000Z"
+    },
+    {
+      "title": "Uvur Lithium and Rubidium Project",
+      "slug": "uvur-lithium-rubidium-project",
+      "description": "Critical minerals project in Tuv province targeting lithium and rubidium production with advanced geological and metallurgical programs.",
+      "content": "The Uvur Project is located in Tuv province, approximately 75 km east of Ulaanbaatar and around 28 km from Erdene soum. The current program includes detailed geological mapping, geophysical campaigns, trenching, and 10,000 linear meters of drilling. Resource work has been prepared with JORC-aligned methodology and independent technical support. Metallurgical testwork indicates strong recoveries in conceptual process routes for lithium and rubidium-bearing ore. The development path covers conversion from exploration to mining license, feasibility and mine planning, environmental approvals, and staged plant construction toward production.",
+      "location": "Tuv Province, Mongolia",
+      "sector": "Mining",
+      "region": "Asia",
+      "services": [
+        "Geological Exploration",
+        "Resource Estimation",
+        "Metallurgical Testwork",
+        "Project Development Planning"
+      ],
+      "client": "Monworld Ltd",
+      "value": "CAPEX estimate: USD 45 million (concept model)",
+      "duration": "2024-2035 (10-year conceptual mine life)",
+      "status": "In Development",
+      "featured": true,
+      "image": {
+        "url": "img/lithium.webp",
+        "alternativeText": "Uvur lithium and rubidium exploration and development"
+      },
+      "gallery": [
+        {
+          "url": "img/lithium.webp",
+          "alternativeText": "Open-pit mining operations"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=1400&h=900&fit=crop&q=80",
+          "alternativeText": "Geology and assay workflow"
+        }
+      ],
+      "outcomes": [
+        "Exploration and drilling programs completed for current target areas",
+        "JORC-aligned resource estimation workflow established",
+        "Conceptual economics indicate strong project potential",
+        "Metallurgical testwork demonstrated high lithium and rubidium recovery"
+      ],
+      "challenges": [
+        "Converting exploration potential into mineable reserves",
+        "Permitting and environmental compliance sequencing",
+        "Scale-up from pilot to commercial processing",
+        "Commodity price and financing sensitivity"
+      ],
+      "sourceFile": "public/files/Lithium, Monworld, Uvur, Erdene Jan 2026.pptx",
+      "publishedAt": "2026-01-15T00:00:00.000Z"
+    },
+    {
+      "title": "Erdene Power Project",
+      "slug": "erdene-power-project",
+      "description": "Energy project profile prepared for investor communication under the EP briefing package.",
+      "content": "This project profile is based on the EP introduction package and is positioned as an early-stage energy infrastructure opportunity in Mongolia. The brief is focused on investment communication and implementation framing, including project rationale, development sequencing, and execution readiness. Scope and final technical parameters are being finalized through ongoing advisory and partner engagement.",
+      "location": "Erdene soum, Mongolia",
+      "sector": "Energy",
+      "region": "Asia",
+      "services": [
+        "Project Advisory",
+        "Technical Planning",
+        "Stakeholder Engagement",
+        "Financial Readiness Support"
+      ],
+      "client": "EP Project Team",
+      "value": "To be confirmed",
+      "duration": "2026-2029",
+      "status": "Pre-Development",
+      "featured": false,
+      "image": {
+        "url": "https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?w=1600&h=900&fit=crop&q=80",
+        "alternativeText": "Erdene Power project overview"
+      },
+      "gallery": [
+        {
+          "url": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?w=1400&h=900&fit=crop&q=80",
+          "alternativeText": "Substation and grid assets"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=1400&h=900&fit=crop&q=80",
+          "alternativeText": "Renewable integration context"
+        }
+      ],
+      "outcomes": [
+        "Investor briefing deck prepared",
+        "Project narrative and baseline scope prepared",
+        "Initial partner outreach package assembled",
+        "Early implementation roadmap drafted"
+      ],
+      "challenges": [
+        "Finalizing technical scope",
+        "Securing financing structure",
+        "Coordinating early-stage approvals",
+        "Aligning delivery model with investor expectations"
+      ],
+      "sourceFile": "public/files/BriefIntro_EP_2304[05].pdf",
+      "publishedAt": "2026-02-01T00:00:00.000Z"
+    },
+    {
+      "title": "Advance Credit Diaspora Fintech Platform",
+      "slug": "advance-credit-diaspora-fintech-platform",
+      "description": "AU-MN cross-border fintech platform starting with live remittances and scaling into apartment leasing and regulated deposit products.",
+      "content": "Advance Credit is an execution-ready diaspora fintech initiative serving the Australia-to-Mongolia corridor. The platform is already live with app distribution on both major stores, AUSTRAC registration, and an initial set of completed transactions validating compliance and settlement flow. Product strategy is phased: (1) low-friction remittance acquisition, (2) asset-backed apartment leasing for diaspora customers using Mongolia underwriting capability, and (3) deposit and wallet products after license progression. The model is reinforced by a profitable legacy Mongolian NBFI operating since 2015, providing credit operations, risk history, and governance depth that materially reduce typical early-stage fintech execution risk.",
+      "location": "Australia-Mongolia Corridor (Sydney and Ulaanbaatar)",
+      "sector": "Fintech",
+      "region": "Asia",
+      "services": [
+        "Cross-Border Remittance",
+        "AML and Compliance Operations",
+        "Diaspora Credit and Leasing",
+        "Fintech Product Engineering",
+        "Capital Structuring"
+      ],
+      "client": "Advance Credit NBFI Group",
+      "value": "USD 10M program target (USD 2M equity + USD 8M secured facility)",
+      "duration": "2025-2030 roadmap",
+      "status": "Live and Scaling",
+      "featured": true,
+      "image": {
+        "url": "img/sending-money.jpg",
+        "alternativeText": "Advance Credit diaspora fintech and remittance platform"
+      },
+      "gallery": [
+        {
+          "url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1400&h=900&fit=crop&q=80",
+          "alternativeText": "Mobile remittance product experience"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=1400&h=900&fit=crop&q=80",
+          "alternativeText": "Compliance and transaction monitoring operations"
+        }
+      ],
+      "outcomes": [
+        "Remittance application launched on App Store and Google Play (Dec 2025)",
+        "AUSTRAC registration completed and AML monitoring workflow active",
+        "Initial live transaction set validates cross-border settlement model",
+        "Phased expansion plan aligns user acquisition, credit growth, and funding efficiency",
+        "Legacy NBFI balance-sheet strength supports scalable underwriting"
+      ],
+      "challenges": [
+        "Refining TAM narrative for corridor-by-corridor expansion",
+        "Clarifying equity term language for institutional due diligence",
+        "Securing and deploying the USD 8M senior facility at target terms",
+        "Managing FX and pricing pressure against larger remittance incumbents",
+        "Coordinating multi-jurisdiction compliance while scaling transaction volume"
+      ],
+      "marketSignals": [
+        "Australia overseas-born share: 31.5% (ABS 2024)",
+        "Global remittance cost benchmark near 6.5%",
+        "Mongolian diaspora corridor remains underserved by major providers"
+      ],
+      "sourceFile": "public/files/Advance Credit pitch deck.pdf",
+      "publishedAt": "2026-03-12T00:00:00.000Z"
     }
   ]
 }

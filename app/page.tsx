@@ -6,7 +6,7 @@ import { ServiceCard } from "@/components/service-card";
 import { StatsSection } from "@/components/stats-section";
 import { SectionDivider } from "@/components/section-divider";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Home } from "lucide-react";
 import {
   getProjects,
   getServices,
@@ -19,6 +19,7 @@ import ProjectSection from "@/components/section-project";
 import MarketSection from "@/components/section-markets";
 import AboutSection from "@/components/section-about";
 import { SectionCTA } from "@/components/section-cta";
+import HomeHero from "@/components/home-hero";
 
 export const metadata: Metadata = {
   title: "Project Globally | Delivering Excellence in Infrastructure",
@@ -69,13 +70,15 @@ export default async function HomePage() {
       <Header />
 
       <main className="flex-1">
-        {pageContent && (
+        <HomeHero />
+        {/* {pageContent && (
           <HeroSection
             title={pageContent.heroTitle}
             subtitle={pageContent?.heroSubtitle}
             imageUrl={pageContent?.heroImage?.url}
           />
-        )}
+          
+        )} */}
         {/* <StatsSection /> */}
         {/* <SectionDivider
           imageSrc="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1920&h=1080&fit=crop&q=80"

@@ -1,9 +1,14 @@
 "use client";
 import Link from "next/link";
-import { MobileNav } from "@/components/mobile-nav";
+import dynamic from "next/dynamic";
 import { useState, useEffect } from "react";
 import { Menu, X, Building2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+
+const MobileNav = dynamic(
+  () => import("@/components/mobile-nav").then((m) => m.MobileNav),
+  { ssr: false },
+);
 
 const navItems = [
   { label: "About Us", href: "/about" },

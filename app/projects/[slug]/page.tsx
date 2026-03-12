@@ -1,9 +1,7 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { Button } from "@/components/ui/button";
 import { SectionCTA } from "@/components/section-cta";
-import { ArrowLeft, MapPin } from "lucide-react";
-import Link from "next/link";
+import { MapPin } from "lucide-react";
 import Image from "next/image";
 import { getProjectBySlug, getProjects, getStrapiMedia } from "@/lib/strapi";
 import { notFound, redirect } from "next/navigation";
@@ -20,6 +18,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     redirect("/maikhan");
   }
 
+  if (slug === "advance-credit-infrastructure-program") {
+    redirect("/projects/advance-credit-diaspora-fintech-platform");
+  }
+
   let project = null;
 
   try {
@@ -28,36 +30,18 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     console.error("[v0] Error fetching project from Strapi:", error);
   }
 
-  // Fallback project data
-  const fallbackProjects: Record<string, any> = {
-    "la-regional-connector": {
-      title: "Los Angeles Regional Connector",
-      description:
-        "We helped to deliver the Los Angeles Regional Connector, encouraging Angelenos towards public transport with modern, efficient rail infrastructure. This transformative project connects three existing light rail lines, creating a unified transit system that serves downtown Los Angeles.",
-      location: "Los Angeles, USA",
-      region: "North America",
-    },
-    "kitakyushu-offshore-wind": {
-      title: "Kitakyushu Hibikinada Offshore Wind",
-      description:
-        "The largest privately financed offshore wind energy project in Japan provides a model for others to follow as the country strives towards net zero. Our comprehensive services included technical advisory, environmental assessments, and construction management for this landmark renewable energy development.",
-      location: "Kitakyushu, Japan",
-      region: "Asia",
-    },
-    "ontario-line-toronto": {
-      title: "Ontario Line, Toronto",
-      description:
-        "Toronto's largest and most complex transport project to date, the Ontario Line is being delivered under a combination of two large public-private partnerships and two progressive design-build contracts. This new 15.6-kilometer subway line will transform urban mobility across the city.",
-      location: "Toronto, Canada",
-      region: "North America",
-    },
-  };
-
-  const displayProject = project || fallbackProjects[slug];
-
-  if (!displayProject) {
+  if (!project) {
     notFound();
   }
+
+  const displayProject: any = project;
+
+  const keyFacts = [
+    { label: "Status", value: displayProject.status || "Not specified" },
+    { label: "Duration", value: displayProject.duration || "Not specified" },
+    { label: "Project Value", value: displayProject.value || "Not specified" },
+    { label: "Client", value: displayProject.client || "Not specified" },
+  ];
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -115,7 +99,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               </h2>
               <div className="prose prose-lg max-w-none">
                 <p className="text-lg leading-relaxed text-muted-foreground">
-                  {displayProject.description}
+                  {displayProject.content || displayProject.description}
                 </p>
               </div>
             </div>
@@ -133,44 +117,64 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 <div className="space-y-6">
                   <div>
                     <h3 className="mb-2 font-semibold text-foreground">
-                      Challenge
+                      Challenges
                     </h3>
-                    <p className="text-muted-foreground">
-                      Delivering complex infrastructure in a challenging urban
-                      environment while maintaining operations and minimizing
-                      disruption to local communities and businesses.
-                    </p>
+                    {Array.isArray(displayProject.challenges) &&
+                    displayProject.challenges.length > 0 ? (
+                      <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
+                        {displayProject.challenges.map(
+                          (item: string, index: number) => (
+                            <li key={index}>{item}</li>
+                          ),
+                        )}
+                      </ul>
+                    ) : (
+                      <p className="text-muted-foreground">Not specified.</p>
+                    )}
                   </div>
                   <div>
                     <h3 className="mb-2 font-semibold text-foreground">
-                      Our Role
+                      Services Delivered
                     </h3>
-                    <p className="text-muted-foreground">
-                      Lead technical consultant providing design, engineering,
-                      project management, and construction supervision services
-                      throughout the project lifecycle.
-                    </p>
+                    {Array.isArray(displayProject.services) &&
+                    displayProject.services.length > 0 ? (
+                      <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
+                        {displayProject.services.map(
+                          (item: string, index: number) => (
+                            <li key={index}>{item}</li>
+                          ),
+                        )}
+                      </ul>
+                    ) : (
+                      <p className="text-muted-foreground">Not specified.</p>
+                    )}
                   </div>
                 </div>
                 <div className="space-y-6">
                   <div>
                     <h3 className="mb-2 font-semibold text-foreground">
-                      Solution
+                      Outcomes
                     </h3>
-                    <p className="text-muted-foreground">
-                      Innovative design and construction methodologies combined
-                      with advanced digital tools to optimize delivery, ensure
-                      safety, and exceed quality standards.
-                    </p>
+                    {Array.isArray(displayProject.outcomes) &&
+                    displayProject.outcomes.length > 0 ? (
+                      <ul className="list-disc space-y-2 pl-5 text-muted-foreground">
+                        {displayProject.outcomes.map(
+                          (item: string, index: number) => (
+                            <li key={index}>{item}</li>
+                          ),
+                        )}
+                      </ul>
+                    ) : (
+                      <p className="text-muted-foreground">Not specified.</p>
+                    )}
                   </div>
                   <div>
                     <h3 className="mb-2 font-semibold text-foreground">
-                      Impact
+                      Sector and Region
                     </h3>
                     <p className="text-muted-foreground">
-                      Transforming infrastructure to deliver lasting benefits
-                      for the community, improving connectivity, sustainability,
-                      and quality of life for generations to come.
+                      {displayProject.sector || "Not specified"} •{" "}
+                      {displayProject.region || "Not specified"}
                     </p>
                   </div>
                 </div>
@@ -187,36 +191,19 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
                 Key Facts
               </h2>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-                <div className="rounded-lg border border-border bg-card p-6">
-                  <div className="mb-2 text-3xl font-bold text-primary">
-                    2020
+                {keyFacts.map((fact) => (
+                  <div
+                    key={fact.label}
+                    className="rounded-lg border border-border bg-card p-6"
+                  >
+                    <div className="mb-2 text-lg font-semibold text-primary">
+                      {fact.value}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      {fact.label}
+                    </div>
                   </div>
-                  <div className="text-sm text-muted-foreground">
-                    Project Start
-                  </div>
-                </div>
-                <div className="rounded-lg border border-border bg-card p-6">
-                  <div className="mb-2 text-3xl font-bold text-primary">
-                    $500M+
-                  </div>
-                  <div className="text-sm text-muted-foreground">
-                    Project Value
-                  </div>
-                </div>
-                <div className="rounded-lg border border-border bg-card p-6">
-                  <div className="mb-2 text-3xl font-bold text-primary">
-                    200+
-                  </div>
-                  <div className="text-sm text-muted-foreground">
-                    Team Members
-                  </div>
-                </div>
-                <div className="rounded-lg border border-border bg-card p-6">
-                  <div className="mb-2 text-3xl font-bold text-primary">
-                    5yrs
-                  </div>
-                  <div className="text-sm text-muted-foreground">Duration</div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
@@ -282,17 +269,11 @@ export async function generateStaticParams() {
     console.error("[v0] Error fetching projects for static params:", error);
   }
 
-  const fallbackSlugs = [
-    "la-regional-connector",
-    "kitakyushu-offshore-wind",
-    "ontario-line-toronto",
-  ];
-
   if (projects.length > 0) {
     return projects.map((project) => ({
       slug: project?.slug,
     }));
   }
 
-  return fallbackSlugs.map((slug) => ({ slug }));
+  return [];
 }

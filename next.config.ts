@@ -11,6 +11,21 @@ const nextConfig: NextConfig = {
         port: "1337",
         pathname: "/uploads/**",
       },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "source.unsplash.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "plus.unsplash.com",
+        pathname: "/**",
+      },
     ],
   },
   // Add other config options here if needed
