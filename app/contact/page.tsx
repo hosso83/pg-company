@@ -259,11 +259,11 @@ export default async function ContactPage() {
           </h2>
           <div className="mx-auto max-w-5xl">
             <div className="aspect-[16/9] w-full overflow-hidden rounded-lg border border-border bg-muted">
-              <div className="flex h-full items-center justify-center">
-                <p className="text-muted-foreground">
-                  Map placeholder - Integrate with Google Maps or similar
-                </p>
-              </div>
+              <iframe
+                src="https://www.google.com/maps?q=51.4905096,-0.2063434&z=15&output=embed"
+                loading="lazy"
+                className="w-full h-full border-0"
+              />
             </div>
           </div>
         </div>
